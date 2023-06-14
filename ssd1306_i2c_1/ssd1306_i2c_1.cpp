@@ -326,7 +326,7 @@ static void SetPixel(uint8_t *buf, int x,int y, bool on)
 }
 
 // Basic Bresenhams.
-static void DrawLine(uint8_t *buf, int x0, int y0, int x1, int y1, bool on) 
+/*static void DrawLine(uint8_t *buf, int x0, int y0, int x1, int y1, bool on) 
 {
     int dx =  abs(x1-x0);
     int sx = x0<x1 ? 1 : -1;
@@ -350,7 +350,7 @@ static void DrawLine(uint8_t *buf, int x0, int y0, int x1, int y1, bool on)
             y0 += sy;
         }
     }
-}
+}*/
 
 static inline int GetFontIndex(uint8_t ch) 
 {
