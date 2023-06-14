@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"name": "pico-projects_w",
+			"path": "../pico-projects_w"
+		}
+	],
+	"settings": {
+		"cmake.statusbar.advanced": {
+			"debug": {
+				"visibility": "hidden"
+			},
+			"launch": {
+				"visibility": "hidden"
+			},
+			"build": {
+				"visibility": "hidden"
+			},
+			"buildTarget": {
+				"visibility": "hidden"
+			}
+		},
+		"cmake.buildBeforeRun": true,
+		"cmake.configureOnOpen": true,
+		"cmake.configureSettings": {
+			"CMAKE_MODULE_PATH": "${env:PICO_INSTALL_PATH}/pico-sdk-tools"
+		},
+		"cmake.generator": "Ninja",
+		"C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+		"files.associations": {
+			"stdlib.h": "c"
+		}
+	}
+}
