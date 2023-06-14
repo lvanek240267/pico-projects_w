@@ -14,7 +14,7 @@ App|Description
 
 ### Analog-Digital clock with NTP
 
-App|Description|Link to project web
+App|Description| Link to project web
 ---|---|---
 
 [ssd1306_i2c_1](ssd1306_i2c_1) | Analog-Digital clock with NTP |  http://www.valachnet.cz/lvanek/diy/rc2040/index.html
