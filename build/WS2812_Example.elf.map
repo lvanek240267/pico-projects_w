@@ -1348,9 +1348,9 @@ Discarded input sections
  .bss.claimed   0x00000000        0x1 neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .rodata.__func__.0
                 0x00000000       0x13 neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
- .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
- .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
+ .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
+ .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
+ .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
  .data          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1511,7 +1511,7 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
+ .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3178,7 +3178,7 @@ LOAD neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/
 LOAD neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
-LOAD C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
+LOAD C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3303,7 +3303,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000085c       0x2c neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
  .ARM.attributes
-                0x00000888       0x22 C:\Users\lvanek\AppData\Local\Temp\ccovo06A.o
+                0x00000888       0x22 C:\Users\lvanek\AppData\Local\Temp\cc2WyWqN.o
  .ARM.attributes
                 0x000008aa       0x1e c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

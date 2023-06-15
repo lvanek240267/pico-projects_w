@@ -1494,9 +1494,9 @@ Discarded input sections
  .bss           0x00000000        0x0 my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
  .text.async_context_base_needs_servicing
                 0x00000000       0x6c my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
- .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
- .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
- .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
+ .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
+ .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
+ .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
  .data          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-calloc.o)
@@ -1714,7 +1714,7 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
+ .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -3422,7 +3422,7 @@ LOAD my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardwar
 LOAD my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 LOAD my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 LOAD my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
-LOAD C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
+LOAD C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -3539,7 +3539,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000007ac       0x2c my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
  .ARM.attributes
-                0x000007d8       0x22 C:\Users\lvanek\AppData\Local\Temp\cc8qVmwp.o
+                0x000007d8       0x22 C:\Users\lvanek\AppData\Local\Temp\cce15jfO.o
  .ARM.attributes
                 0x000007fa       0x1e c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
