@@ -4,7 +4,7 @@
 [[description]]
 [pdfwidth=75%]
 .Description
-image::wiring.png[]
+image::clock.png[]
 
 Analog-Digital clock driven by NTP based on:
 
