@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "neopixel/pico-sdk",
+		"source" : "C:/PicoSDK/pico-sdk"
+	}
+}
