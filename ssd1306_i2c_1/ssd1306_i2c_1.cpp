@@ -26,7 +26,6 @@
 #include "pico/binary_info.h"
 #include "pico/lock_core.h"
 #include "hardware/i2c.h"
-//#include "raspberry26x32.h"
 #include "ssd1306_font.h"
 #include "pico/cyw43_arch.h"
 #include "sd_card.h"
