@@ -33,8 +33,9 @@ image::wiring.png[]
 
 There are two possible ways for WiFi configuration:
 
-* In file CMakeLists.txt is WiFi configuration. So its necessary to change it and rebuild project. SD card is not needed in this case. You can comment out function readWiFiConfig.
-* Use microSD card and store file *wifi.txt* with SSID (case sensitive!) at first line and password at second (followed by new line). Then you may use my *picow_ntp_client_background.uf2*
+* In file *CMakeLists.txt* is WiFi configuration. So its necessary to change it and rebuild project. SD card is not needed in this case. You can comment out function readWiFiConfig.
+* Use microSD card and store file *wifi.txt* with SSID (case sensitive!) at first line and password at second (followed by new line). +
+Then you may use my *https://github.com/lvanek240267/pico-projects_w/blob/main/build/ssd1306_i2c_1/picow_ntp_client_background.uf2*
 
 == List of Files
 
