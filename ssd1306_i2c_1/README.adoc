@@ -1,6 +1,18 @@
 = Analog-Digital clock with NTP
-.Wiring Diagram for oled display via I2C.
-image::clock.png[]
+
+== Description
+[[description]]
+[pdfwidth=75%]
+.Description
+image::wiring.png[]
+
+Analog-Digital clock driven by NTP based on:
+
+    Raspberry PI Pico W
+    SSD1306 128x64 OLED display
+    24x RGB LED NeoPixel circle Ø65, WS2812B
+    24x RGB LED NeoPixel circle Ø85, WS2812B
+    Optional microSD slot for storing WiFi config
 
 == Wiring information
 [[ssd1306_i2c_wiring]]
@@ -11,5 +23,5 @@ image::wiring.png[]
 == List of Files
 
 CMakeLists.txt:: CMake file to incorporate the example into the examples build tree.
-ssd1306_i2c_1.cpp:: The example code.
+ssd1306_i2c_1.cpp:: The main code.
 
