@@ -24,7 +24,7 @@ image::wiring.png[]
 * NeoPixels uses *GP14* and *GP15*
 * MicroSD card uses *SPI1*:
 ** *MISO* = *GP8*
-** **MOSI* = *GP11*
+** *MOSI* = *GP11*
 ** *SCK* = *GP10*
 ** *CS* (Chip Select) = *GP9*
 * There is switch to enable DST. One side is connected to GND via 10k pull-down resistor and *GP12*, other side is connected to 3.3V
