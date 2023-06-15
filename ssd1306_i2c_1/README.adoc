@@ -20,8 +20,7 @@ Analog-Digital clock driven by NTP based on:
 .Wiring Diagram for Raspberry Pi Pico W, NeoPixels, OLED and microSD Card.
 image::wiring.png[]
 
-.For SSD1306 OLED display I use GP6 as SDA and GP7 as SCL. It's second I2C channel.
-
+* For SSD1306 OLED display I use GP6 as SDA and GP7 as SCL. It's second I2C channel
 * NeoPixels uses GP14 and GP15
 * MicroSD card uses SPI1:
 ** MISO = GP8
