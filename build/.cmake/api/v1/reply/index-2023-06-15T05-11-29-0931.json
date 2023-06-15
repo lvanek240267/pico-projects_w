@@ -8,18 +8,18 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "C:/PicoSDK/cmake/bin/cmake.exe",
-			"cpack" : "C:/PicoSDK/cmake/bin/cpack.exe",
-			"ctest" : "C:/PicoSDK/cmake/bin/ctest.exe",
-			"root" : "C:/PicoSDK/cmake/share/cmake-3.25"
+			"cmake" : "C:/Program Files/CMake/bin/cmake.exe",
+			"cpack" : "C:/Program Files/CMake/bin/cpack.exe",
+			"ctest" : "C:/Program Files/CMake/bin/ctest.exe",
+			"root" : "C:/Program Files/CMake/share/cmake-3.24"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 25,
-			"patch" : 2,
-			"string" : "3.25.2",
+			"minor" : 24,
+			"patch" : 0,
+			"string" : "3.24.0",
 			"suffix" : ""
 		}
 	},
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-4358e86475738280d8f1.json",
+			"jsonFile" : "cache-v2-f44dc6f0cbc81b95da24.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-2f8229b84c52c10fa0b5.json",
+			"jsonFile" : "cmakeFiles-v1-5ed22a1aa9d7998ccb06.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -90,7 +90,7 @@
 				"responses" : 
 				[
 					{
-						"jsonFile" : "cache-v2-4358e86475738280d8f1.json",
+						"jsonFile" : "cache-v2-f44dc6f0cbc81b95da24.json",
 						"kind" : "cache",
 						"version" : 
 						{
@@ -117,7 +117,7 @@
 						}
 					},
 					{
-						"jsonFile" : "cmakeFiles-v1-2f8229b84c52c10fa0b5.json",
+						"jsonFile" : "cmakeFiles-v1-5ed22a1aa9d7998ccb06.json",
 						"kind" : "cmakeFiles",
 						"version" : 
 						{

@@ -40,7 +40,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -57,34 +57,34 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeASMCompiler.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeASMCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -93,27 +93,27 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-C.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -122,27 +122,27 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -151,22 +151,22 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeASMInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"path" : "example_auto_set_url.cmake"
@@ -185,7 +185,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeSystem.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeSystem.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -202,30 +202,30 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeCCompiler.cmake"
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/CMakeFiles/3.25.2/CMakeCXXCompiler.cmake"
+			"path" : "build/CMakeFiles/3.24.0/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeGenericSystem.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -234,27 +234,27 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-C.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-C.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -263,27 +263,27 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCXXInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -292,7 +292,7 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -305,17 +305,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeASMInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -360,17 +360,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeASMInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -535,22 +535,22 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPython3.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPython3.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPython/Support.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPython/Support.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"isExternal" : true,
@@ -863,17 +863,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindDoxygen.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindDoxygen.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageHandleStandardArgs.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/FindPackageMessage.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
 		},
 		{
 			"path" : "my_blink/CMakeLists.txt"
@@ -906,17 +906,17 @@
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/CMakeASMInformation.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/CMakeASMInformation.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU-ASM.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU-ASM.cmake"
 		},
 		{
 			"isCMake" : true,
 			"isExternal" : true,
-			"path" : "C:/PicoSDK/cmake/share/cmake-3.25/Modules/Compiler/GNU.cmake"
+			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/Compiler/GNU.cmake"
 		},
 		{
 			"isExternal" : true,
