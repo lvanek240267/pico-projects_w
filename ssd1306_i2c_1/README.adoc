@@ -1,6 +1,8 @@
 = Analog-Digital clock with NTP
-== Wiring information
+.Wiring Diagram for oled display via I2C.
+image::clock.png[]
 
+== Wiring information
 [[ssd1306_i2c_wiring]]
 [pdfwidth=75%]
 .Wiring Diagram for oled display via I2C.
