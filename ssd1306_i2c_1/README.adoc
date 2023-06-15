@@ -17,7 +17,7 @@ Analog-Digital clock driven by NTP based on:
 == Wiring information
 [[ssd1306_i2c_wiring]]
 [pdfwidth=75%]
-.Wiring Diagram for oled display via I2C.
+.Wiring Diagram for Raspberry Pi Pico W, NeoPixels, OLED and microSD Card.
 image::wiring.png[]
 
 == List of Files
