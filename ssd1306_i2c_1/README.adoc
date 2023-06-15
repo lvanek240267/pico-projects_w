@@ -29,6 +29,13 @@ image::wiring.png[]
 ** *CS* (Chip Select) = *GP9*
 * There is switch to enable DST. One side is connected to GND via 10k pull-down resistor and *GP12*, other side is connected to 3.3V
 
+== WiFi configuration
+
+There are two possible ways for WiFi configuration:
+
+* In file CMakeLists.txt is WiFi configuration. So its necessary to change it and rebuild project. SD card is not needed in this case. You can comment out function readWiFiConfig.
+* Use microSD card and store file *wifi.txt* with SSID (case sensitive!) at first line and password at second (followed by new line). Then you may use my *picow_ntp_client_background.uf2*
+
 == List of Files
 
 CMakeLists.txt:: CMake file to incorporate the example into the examples build tree.
