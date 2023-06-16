@@ -31,7 +31,6 @@
 #include "sd_card.h"
 #include "ff.h"
 
-
 /**
  * NTP Stuff, code borrowed from pico_examles/pico_w/ntp
  * 
