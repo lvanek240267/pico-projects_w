@@ -45,4 +45,3 @@ ssd1306_i2c_1.cpp:: The main code.
 == Project Web
 
 More info is on this web page: http://www.valachnet.cz/lvanek/diy/rc2040/index.html
-
