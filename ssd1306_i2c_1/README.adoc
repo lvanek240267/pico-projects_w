@@ -6,7 +6,7 @@
 .Description
 image::clock.jpg[]
 
-Analog-Digital clock driven by NTP based on:
+NeoPixel / OLED clock driven by NTP based on:
 
     Raspberry PI Pico W
     SSD1306 128x64 OLED display
