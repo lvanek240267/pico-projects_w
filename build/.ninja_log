@@ -1,31 +1,19 @@
 # ninja log v5
-<<<<<<< HEAD
-=======
-4954	5311	7083390347672308	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	ceba7109b20d6111
-4514	4910	7083390343254128	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj	3442b01de0ee76eb
 49	1006	7085961287332125	pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	6cc8b95a8b893807
-638	796	7071448266796307	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	d1044f8319aabb8b
+4514	4910	7083390343254128	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj	3442b01de0ee76eb
+4954	5311	7083390347672308	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	ceba7109b20d6111
 119	427	7083392665534643	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj	4780cd7ace48c4e2
-1061	1442	7071448273009678	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj	f8fa5f5a2c4aabae
-1327	1694	7071448275862052	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj	eb9131e45c74bec
->>>>>>> 41543f3f52164cfe34d66ba6f139d81f3fe8fafb
+638	796	7071448266796307	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	d1044f8319aabb8b
 564	702	7064529224769924	D:/Home/Development/Personal/PICO/pico-projects/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	53c56ce88c0aa943
 1327	1694	7071448275862052	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj	eb9131e45c74bec
-1302	1889	7072250710725898	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/raw.c.obj	a2d5d3597b6678b6
-<<<<<<< HEAD
 958	1464	7071448273368717	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj	833caeff1f7110ac
+1302	1889	7072250710725898	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/raw.c.obj	a2d5d3597b6678b6
 1061	1442	7071448273009678	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj	f8fa5f5a2c4aabae
-119	427	7083392665534643	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj	4780cd7ace48c4e2
-638	796	7071448266796307	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj	d1044f8319aabb8b
-4514	4910	7083390343254128	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj	3442b01de0ee76eb
-49	1006	7085961287332125	pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/compile_time_choice.S.obj	6cc8b95a8b893807
-4954	5311	7083390347672308	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	ceba7109b20d6111
-=======
 1006	1331	7085961289695876	pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf	2439aed6b8ef2506
 4282	4514	7083390339778109	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/crc.c.obj	ac255a8403c6b305
->>>>>>> 41543f3f52164cfe34d66ba6f139d81f3fe8fafb
 309	668	7086014751392946	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj	92c5161158a70294
 52	385	7071450251790079	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj	e33bf869c1e91b39
+48	235	7089485816969976	pico-sdk/src/rp2_common/boot_stage2/======bs2_default.elf	6d31f0f8c2980645
 2927	3425	7072250725910370	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj	10b4728fa69eb36a
 1251	1652	7071448275582799	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj	6184063081d4c253
 628	947	7086014754404891	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_time/timeout_helper.c.obj	746b6b59dfaa23e6
@@ -38,17 +26,18 @@
 2397	2799	7086014772990531	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj	e61c54727017a05a
 426	740	7071450255101229	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	cda87145ee48dc3a
 128	308	7086014748031931	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/crc.c.obj	92e6f3894045c366
-1331	1381	7085961291112107	pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	66cafeee3f258d5b
+235	274	7089485818246559	pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	2ee820bc167b52bd
 544	841	7083392669703500	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj	6664ac29a1c2d4df
 4102	4344	7086014788579266	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj	ff7c41cb0dad4f87
 1677	2476	7072250716470530	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj	cd93448c8eb35037
 940	1438	7072250706048415	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj	86c2259f1b922c2c
 140	563	7086014750664893	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/hw_config.c.obj	9c1aa05b688c406b
 3915	4416	7072250736138486	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj	39ef5d773de0edd0
-1381	1488	7085961292149320	pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
+274	361	7089485819094294	pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
 5668	6162	7083390356289264	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/timeouts.c.obj	4575ccbc4d1866c0
 150	489	7071450252528103	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	8dbfc1ea1ff33130
 636	988	7086014754694125	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	a3739b6998be4617
+361	924	7089485822166082	ssd1306_i2c_1/======picow_ntp_client_background.elf	81d5fa34218009c6
 1429	2317	7072250714964564	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp.c.obj	783edc6d8bc865bd
 1035	1288	7071448271653312	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_divider/divider.S.obj	6e23c603d0bd8ec0
 3878	4232	7072250734163734	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj	e90fa122cad5d7ab
@@ -70,13 +59,9 @@
 930	1308	7071448271942532	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj	593d6e61f78e7bb
 778	1149	7071448270077523	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj	90340f34ebeb6c7b
 668	979	7071448268392036	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/critical_section.c.obj	dd0750ecabaa1b05
-1230	1932	7072250710905419	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/memp.c.obj	af7a4c7074a07b5f
-<<<<<<< HEAD
-51	1861	7089481531179675	build.ninja	d6b710ad0962f2d7
-=======
->>>>>>> 41543f3f52164cfe34d66ba6f139d81f3fe8fafb
 1397	1755	7071450265692977	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj	ad8644e25fcdd155
-51	1861	7088639371295563	build.ninja	d6b710ad0962f2d7
+53	4185	7089486288834082	build.ninja	d6b710ad0962f2d7
+1230	1932	7072250710905419	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/memp.c.obj	af7a4c7074a07b5f
 3078	3547	7086014780565367	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj	d833cff6a55c0d2c
 76	305	7071450250972275	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj	391ce9c2a96806c6
 2489	3050	7072250722444549	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj	fac474f9b482abdd
@@ -94,7 +79,6 @@
 630	1035	7071448268711185	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj	dcf06b23e5703248
 317	661	7086014751382971	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj	f0400073232eda75
 4661	5094	7083390345587884	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj	436c5835f7bad166
-816	1470	7085403007694188	ssd1306_i2c_1/picow_ntp_client_poll.elf	bddf7a22b61fb146
 644	958	7071448268003073	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/sem.c.obj	a9f42304ea9ac96b
 63	126	7085961278549503	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h	b69c08d0497c90f2
 689	1051	7071448269100140	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj	43c49c38fa4714c0
@@ -144,9 +128,8 @@
 1279	1493	7071450262910341	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	2b7688dd76e77e88
 861	1136	7086014756319777	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj	cd486dd3058f38d6
 1068	1795	7071448276839434	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_math.c.obj	e137fb8bd08f767
-1331	1381	7085961291112107	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	66cafeee3f258d5b
+235	274	7089485818246559	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	2ee820bc167b52bd
 1203	1794	7071448276829463	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_float/float_math.c.obj	2b3e4a72abd64ffb
-66	575	7085402999544214	my_blink/my_blink.elf	88d8a89d6a3f6c3
 61	110	7071439475883633	neopixel/WS2812.pio.h	f7ef70dddacc9155
 2541	3081	7072250722544288	ssd1306_i2c_1/CMakeFiles/ssd1306_i2c_1.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj	9fad4ce3aa476567
 1003	1508	7071450263059934	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj	6049c6877db4628
@@ -268,10 +251,9 @@
 1389	1715	7071450265293960	neopixel/CMakeFiles/WS2812_Example.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/tusb.c.obj	48c3df9d2c80828
 3327	3856	7086014783537417	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj	5e31ab17c46fe973
 501	660	7083397784974021	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj	c986a4f86b503c2a
-73	585	7085402999674209	neopixel/WS2812_Example.elf	5987244c9643f06d
 2938	3403	7086014779059392	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj	544e722d59b430b9
 61	110	7071439475883633	D:/Home/Development/Personal/PICO/pico-projects_w/build/neopixel/WS2812.pio.h	f7ef70dddacc9155
-1381	1488	7085961292149320	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
+274	361	7089485819094294	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
 63	126	7085961278549503	pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.pio.h	b69c08d0497c90f2
 1427	1614	7071448275193837	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj	e4b04403f9fccd94
 1443	1662	7071448275602744	my_blink/CMakeFiles/my_blink.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj	976d2b52dd2c1b2d
@@ -657,4 +639,3 @@
 4196	5010	7083390344770072	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_poll.dir/ff.c.obj	9304abfb98defbf3
 104	316	7086014748171561	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffsystem.c.obj	791b0aded5cc2735
 110	325	7086014748271291	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffunicode.c.obj	ee8bdd2a7684e535
-53	4185	7088639371295563	build.ninja	d6b710ad0962f2d7
