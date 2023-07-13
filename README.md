@@ -1,5 +1,9 @@
 # Raspberry Pi Pico W projects
 
+## Description
+
+Some personal projects for playing with Raspberry Pi Pico W.
+
 ### Blink sample
 
 App|Description
