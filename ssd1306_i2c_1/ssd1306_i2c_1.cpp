@@ -1210,7 +1210,6 @@ bool readWiFiConfig()
     FIL fil;
     const char filename[] = "wifi.txt";
 
-
     // Initialize SD card
     if (!sd_init_driver()) 
     {
@@ -1285,33 +1284,33 @@ int main()
     bool wifiConfig = readWiFiConfig();
 
     if (cyw43_arch_init()) 
-        {
-            printf("failed to initialise\n");
-            sleep_ms(3000);
-            return 0;
-        }
+    {
+        printf("failed to initialise\n");
+        sleep_ms(3000);
+        return 0;
+    }
 
-        cyw43_arch_enable_sta_mode();
+    cyw43_arch_enable_sta_mode();
 
-        int result;
+    int result;
 
-        if (wifiConfig)
-        {
-            result = cyw43_arch_wifi_connect_timeout_ms(wifiSSID, wifiPwd, CYW43_AUTH_WPA2_AES_PSK, 10000);
-        }
-        else
-        {
-            result = cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 10000);
-        }
+    if (wifiConfig)
+    {
+        result = cyw43_arch_wifi_connect_timeout_ms(wifiSSID, wifiPwd, CYW43_AUTH_WPA2_AES_PSK, 10000);
+    }
+    else
+    {
+         result = cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 10000);
+    }
 
-        if (result) 
-        {
-            printf("Failed to connect. Error code: %d\n", result);
-            printf(WIFI_SSID);
-            printf(WIFI_PASSWORD);
-            sleep_ms(3000);
-            return 0;
-        }
+    if (result) 
+    {
+        printf("Failed to connect. Error code: %d\n", result);
+        printf(WIFI_SSID);
+        printf(WIFI_PASSWORD);
+        sleep_ms(3000);
+        return 0;
+    }
 
     //----------------------------------------------------------------------------------------
 
