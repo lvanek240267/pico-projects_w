@@ -2558,9 +2558,9 @@ Discarded input sections
                 0x00000000       0x3c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x00000000       0x3e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
- .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
- .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
+ .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
+ .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
+ .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
  .data          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atoi.o)
@@ -2787,7 +2787,7 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
+ .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -4949,9 +4949,9 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
  .rodata        0x10018ce0       0x78 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
  .rodata._ZL4font
                 0x10018d58      0x128 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
- .rodata._ZZ4mainE9__bi_1325
+ .rodata._ZZ4mainE9__bi_1324
                 0x10018e80        0x8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
- .rodata._ZZ4mainE9__bi_1326
+ .rodata._ZZ4mainE9__bi_1325
                 0x10018e88        0xc ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
  .rodata._ZL14ws2812_program
                 0x10018e94        0x6 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/WS2812.cpp.obj
@@ -6071,9 +6071,9 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
 
 .binary_info    0x10056224       0x2c
  *(.binary_info.keep.*)
- .binary_info.keep.__bi_ptr1325
+ .binary_info.keep.__bi_ptr1324
                 0x10056224        0x4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
- .binary_info.keep.__bi_ptr1326
+ .binary_info.keep.__bi_ptr1325
                 0x10056228        0x4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
  .binary_info.keep.__bi_ptr22
                 0x1005622c        0x4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
@@ -6799,7 +6799,7 @@ LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sd
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
+LOAD C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -7000,7 +7000,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000ee4       0x2c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00000f10       0x22 C:\Users\lvanek\AppData\Local\Temp\ccBkPFDi.o
+                0x00000f10       0x22 C:\Users\lvanek\AppData\Local\Temp\ccGyiYbo.o
  .ARM.attributes
                 0x00000f32       0x1e c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes
@@ -7661,94 +7661,94 @@ LOAD linker stubs
  .debug_ranges  0x00008110      0x198 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_ranges  0x000082a8      0x270 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
-.debug_line     0x00000000    0x3a30a
- .debug_line    0x00000000     0x1f5f ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
- .debug_line    0x00001f5f      0xa80 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/WS2812.cpp.obj
- .debug_line    0x000029df     0x173b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/sd_card.c.obj
- .debug_line    0x0000411a     0x3c70 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ff.c.obj
- .debug_line    0x00007d8a      0x139 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffsystem.c.obj
- .debug_line    0x00007ec3      0x359 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffunicode.c.obj
- .debug_line    0x0000821c      0xf1d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/spi.c.obj
- .debug_line    0x00009139      0x927 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/sd_spi.c.obj
- .debug_line    0x00009a60      0x234 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/crc.c.obj
- .debug_line    0x00009c94      0x1d0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/my_debug.c.obj
- .debug_line    0x00009e64      0x47b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/hw_config.c.obj
- .debug_line    0x0000a2df      0x491 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/glue.c.obj
- .debug_line    0x0000a770      0x55b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
- .debug_line    0x0000accb      0x6e3 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
- .debug_line    0x0000b3ae      0x249 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
- .debug_line    0x0000b5f7      0xae7 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
- .debug_line    0x0000c0de      0x354 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x0000c432      0x784 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0000cbb6      0x433 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
- .debug_line    0x0000cfe9      0x42f ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x0000d418      0x20d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x0000d625      0x937 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000df5c      0xc41 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x0000eb9d      0xff0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x0000fb8d      0xa31 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/sem.c.obj
- .debug_line    0x000105be      0x1ea ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x000107a8     0x105a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/mutex.c.obj
- .debug_line    0x00011802      0x275 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/critical_section.c.obj
- .debug_line    0x00011a77     0x1b36 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_time/time.c.obj
- .debug_line    0x000135ad      0xba8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x00014155      0x87e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_util/pheap.c.obj
- .debug_line    0x000149d3      0x4f6 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x00014ec9      0x3da ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
- .debug_line    0x000152a3      0x27e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00015521      0x18b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/init.c.obj
- .debug_line    0x000156ac      0x4be ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/def.c.obj
- .debug_line    0x00015b6a     0x1213 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/dns.c.obj
- .debug_line    0x00016d7d      0x71a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
- .debug_line    0x00017497      0x19d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ip.c.obj
- .debug_line    0x00017634      0xa0c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/mem.c.obj
- .debug_line    0x00018040      0x564 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/memp.c.obj
- .debug_line    0x000185a4      0xd99 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/netif.c.obj
- .debug_line    0x0001933d     0x177b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/pbuf.c.obj
- .debug_line    0x0001aab8      0x854 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/raw.c.obj
- .debug_line    0x0001b30c      0x234 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/stats.c.obj
- .debug_line    0x0001b540     0x2784 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp.c.obj
- .debug_line    0x0001dcc4     0x242c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
- .debug_line    0x000200f0     0x2071 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
- .debug_line    0x00022161      0x6f1 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/timeouts.c.obj
- .debug_line    0x00022852     0x121a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/udp.c.obj
- .debug_line    0x00023a6c     0x22c6 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
- .debug_line    0x00025d32     0x10f2 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
- .debug_line    0x00026e24      0x618 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
- .debug_line    0x0002743c      0xdde ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
- .debug_line    0x0002821a      0xb3e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
- .debug_line    0x00028d58      0x6a0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
- .debug_line    0x000293f8      0x45e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
- .debug_line    0x00029856      0xa56 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
- .debug_line    0x0002a2ac      0x4ca ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
- .debug_line    0x0002a776     0x2353 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
- .debug_line    0x0002cac9     0x26e4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
- .debug_line    0x0002f1ad      0x494 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
- .debug_line    0x0002f641     0x10fd ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
- .debug_line    0x0003073e     0x103d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
- .debug_line    0x0003177b      0x4cb ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
- .debug_line    0x00031c46      0xd08 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
- .debug_line    0x0003294e      0xb1b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
- .debug_line    0x00033469      0x6da ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
- .debug_line    0x00033b43      0xa2a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x0003456d     0x1201 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x0003576e      0x140 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000358ae      0x2c9 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
- .debug_line    0x00035b77      0x419 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
- .debug_line    0x00035f90      0x31c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
- .debug_line    0x000362ac       0x8a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
- .debug_line    0x00036336       0x90 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000363c6      0x3c8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
- .debug_line    0x0003678e      0x2e4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
- .debug_line    0x00036a72      0x216 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .debug_line    0x00036c88       0xba ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00036d42       0xc8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
- .debug_line    0x00036e0a      0x26d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
- .debug_line    0x00037077      0x190 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
- .debug_line    0x00037207      0xde9 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00037ff0      0xa23 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .debug_line    0x00038a13      0xc14 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_line    0x00039627      0xce3 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
+.debug_line     0x00000000    0x3a306
+ .debug_line    0x00000000     0x1f5b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj
+ .debug_line    0x00001f5b      0xa80 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/WS2812.cpp.obj
+ .debug_line    0x000029db     0x173b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/sd_card.c.obj
+ .debug_line    0x00004116     0x3c70 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ff.c.obj
+ .debug_line    0x00007d86      0x139 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffsystem.c.obj
+ .debug_line    0x00007ebf      0x359 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ffunicode.c.obj
+ .debug_line    0x00008218      0xf1d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/spi.c.obj
+ .debug_line    0x00009135      0x927 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/sd_spi.c.obj
+ .debug_line    0x00009a5c      0x234 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/crc.c.obj
+ .debug_line    0x00009c90      0x1d0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/my_debug.c.obj
+ .debug_line    0x00009e60      0x47b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/hw_config.c.obj
+ .debug_line    0x0000a2db      0x491 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/glue.c.obj
+ .debug_line    0x0000a76c      0x55b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+ .debug_line    0x0000acc7      0x6e3 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+ .debug_line    0x0000b3aa      0x249 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+ .debug_line    0x0000b5f3      0xae7 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+ .debug_line    0x0000c0da      0x354 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x0000c42e      0x784 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0000cbb2      0x433 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+ .debug_line    0x0000cfe5      0x42f ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x0000d414      0x20d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x0000d621      0x937 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000df58      0xc41 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x0000eb99      0xff0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000fb89      0xa31 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/sem.c.obj
+ .debug_line    0x000105ba      0x1ea ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x000107a4     0x105a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000117fe      0x275 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_sync/critical_section.c.obj
+ .debug_line    0x00011a73     0x1b36 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_time/time.c.obj
+ .debug_line    0x000135a9      0xba8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x00014151      0x87e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/common/pico_util/pheap.c.obj
+ .debug_line    0x000149cf      0x4f6 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x00014ec5      0x3da ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+ .debug_line    0x0001529f      0x27e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x0001551d      0x18b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/init.c.obj
+ .debug_line    0x000156a8      0x4be ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/def.c.obj
+ .debug_line    0x00015b66     0x1213 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/dns.c.obj
+ .debug_line    0x00016d79      0x71a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+ .debug_line    0x00017493      0x19d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ip.c.obj
+ .debug_line    0x00017630      0xa0c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/mem.c.obj
+ .debug_line    0x0001803c      0x564 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/memp.c.obj
+ .debug_line    0x000185a0      0xd99 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/netif.c.obj
+ .debug_line    0x00019339     0x177b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+ .debug_line    0x0001aab4      0x854 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/raw.c.obj
+ .debug_line    0x0001b308      0x234 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/stats.c.obj
+ .debug_line    0x0001b53c     0x2784 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp.c.obj
+ .debug_line    0x0001dcc0     0x242c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+ .debug_line    0x000200ec     0x2071 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+ .debug_line    0x0002215d      0x6f1 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+ .debug_line    0x0002284e     0x121a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/udp.c.obj
+ .debug_line    0x00023a68     0x22c6 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+ .debug_line    0x00025d2e     0x10f2 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+ .debug_line    0x00026e20      0x618 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+ .debug_line    0x00027438      0xdde ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+ .debug_line    0x00028216      0xb3e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+ .debug_line    0x00028d54      0x6a0 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+ .debug_line    0x000293f4      0x45e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+ .debug_line    0x00029852      0xa56 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+ .debug_line    0x0002a2a8      0x4ca ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+ .debug_line    0x0002a772     0x2353 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+ .debug_line    0x0002cac5     0x26e4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+ .debug_line    0x0002f1a9      0x494 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+ .debug_line    0x0002f63d     0x10fd ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+ .debug_line    0x0003073a     0x103d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+ .debug_line    0x00031777      0x4cb ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+ .debug_line    0x00031c42      0xd08 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+ .debug_line    0x0003294a      0xb1b ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+ .debug_line    0x00033465      0x6da ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+ .debug_line    0x00033b3f      0xa2a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00034569     0x1201 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x0003576a      0x140 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000358aa      0x2c9 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+ .debug_line    0x00035b73      0x419 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+ .debug_line    0x00035f8c      0x31c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+ .debug_line    0x000362a8       0x8a ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+ .debug_line    0x00036332       0x90 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000363c2      0x3c8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+ .debug_line    0x0003678a      0x2e4 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .debug_line    0x00036a6e      0x216 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .debug_line    0x00036c84       0xba ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00036d3e       0xc8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+ .debug_line    0x00036e06      0x26d ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+ .debug_line    0x00037073      0x190 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+ .debug_line    0x00037203      0xde9 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00037fec      0xa23 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+ .debug_line    0x00038a0f      0xc14 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_line    0x00039623      0xce3 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
 
 .debug_str      0x00000000     0xd37f
  .debug_str     0x00000000     0x19a8 ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/ssd1306_i2c_1.cpp.obj

@@ -5,3 +5,5 @@ cmake-*
 *.pdf
 CMakeCache.txt
 build/.cmake
+build/.ninja_log
+build/.ninja_deps
