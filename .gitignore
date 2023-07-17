@@ -1,8 +1,7 @@
-.idea
 .vscode
 _deps
 cmake-*
-build
 .DS_Store
 *.pdf
 CMakeCache.txt
+build/.cmake
