@@ -169,6 +169,7 @@ void clear(WS2812 ledStrip);
 void setDateTime(WS2812 ledStrip85, WS2812 ledStrip65, uint hours, uint minutes);
 void test1(WS2812 ledStrip85, WS2812 ledStrip65);
 void test2(WS2812 ledStrip85, WS2812 ledStrip65);
+void test3(WS2812 ledStrip85, WS2812 ledStrip65);
 
 //===========================================================================================
 void calc_render_area_buflen(struct render_area *area) 
@@ -1193,6 +1194,26 @@ void test2(WS2812 ledStrip85, WS2812 ledStrip65)
     }
 }
 
+void test3(WS2812 ledStrip85, WS2812 ledStrip65)
+{
+    printf("Setting: 3:00\r\n");
+    setDateTime(ledStrip85, ledStrip65, 3, 0);
+    sleep_ms(250);
+
+    printf("Setting: 6:00\r\n");
+    setDateTime(ledStrip85, ledStrip65, 6, 0);
+    sleep_ms(250);
+
+    printf("Setting: 9:00\r\n");
+    setDateTime(ledStrip85, ledStrip65, 9, 0);
+    sleep_ms(250);
+
+    printf("Setting: 0:00\r\n");
+    setDateTime(ledStrip85, ledStrip65, 0, 0);
+    sleep_ms(250);
+}
+
+
 // WiFi config from SD car. If mot readed, config from CMakeList.txt is used
 char wifiSSID[] = "                     ";
 char wifiPwd[] = "                     ";
@@ -1407,6 +1428,10 @@ WS2812 ledStrip65(
     );
 
     test2(ledStrip85, ledStrip65);
+    clear(ledStrip85);
+    clear(ledStrip65);
+
+    test3(ledStrip85, ledStrip65);
     clear(ledStrip85);
     clear(ledStrip65);
 

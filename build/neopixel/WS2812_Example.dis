@@ -1,5 +1,5 @@
 
-D:/Home/Development/Personal/PICO/pico-projects_w/build/neopixel/WS2812_Example.elf:     file format elf32-littlearm
+D:/Home/Development/Personal/PICO/pico-projects_w/build/neopixel/======WS2812_Example.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
@@ -48,7 +48,7 @@ Idx Name          Size      VMA       LMA       File off  Algn
  21 .debug_frame  000032b8  00000000  00000000  00085a4c  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
-D:/Home/Development/Personal/PICO/pico-projects_w/build/neopixel/WS2812_Example.elf:     file format elf32-littlearm
+D:/Home/Development/Personal/PICO/pico-projects_w/build/neopixel/======WS2812_Example.elf:     file format elf32-littlearm
 
 
 Disassembly of section .boot2:
