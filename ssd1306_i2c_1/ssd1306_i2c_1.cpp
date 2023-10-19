@@ -1420,7 +1420,7 @@ WS2812 ledStrip85(
 WS2812 ledStrip65(
         LED_PIN65,          // Data line (GP15)
         LED_LENGTH,         // Strip is 24 LEDs long.
-        pio0,               // Use PIO 1 for creating the state machine.
+        pio0,               // Use PIO 0 for creating the state machine.
         3,                  // Index of the state machine that will be created for controlling the LED strip
                             // You can have 4 state machines per PIO-Block up to 8 overall.
                             // See Chapter 3 in: https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf
