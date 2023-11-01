@@ -81,7 +81,6 @@ critical_section_t myLock;
 #define SSD1306_I2C_CLK             400
 //#define SSD1306_I2C_CLK             1000
 
-
 // commands (see datasheet)
 #define SSD1306_SET_MEM_MODE        _u(0x20)
 #define SSD1306_SET_COL_ADDR        _u(0x21)
@@ -116,7 +115,6 @@ critical_section_t myLock;
 
 #define SSD1306_WRITE_MODE         _u(0xFE)
 #define SSD1306_READ_MODE          _u(0xFF)
-
 
 // --------------------------------------------
 // Used I2C #1, allows debugging with Picoprobe
@@ -156,13 +154,16 @@ uint8_t buf[SSD1306_BUF_LEN];
 
 // Some constants for NeoPixel rings
 #define RED_HIGH 64     // High red color intensity
-#define RED_LOW 10      // Low red color intensity
+#define RED_LOW1 1     // Low1 red color intensity
+#define RED_LOW2 8     // Low2 red color intensity
+
 #define BLUE_HIGH 64    // High blue color intensity
 #define BLUE_LOW1 3     // Low1 blue color intensity
 #define BLUE_LOW2 8     // Low2 blue color intensity
 #define BLUE_LOW3 15    // Low3 blue color intensity
 #define BLUE_LOW4 20    // Low4 blue color intensity
-#define STRIP65_SHIFT 2 // Because Inner ring is mounted 2 LEDs shifted against Outer ring due mounting holes shift
+
+#define STRIP65_SHIFT 3 // Because Inner ring is mounted 2 LEDs shifted against Outer ring due mounting holes shift
 
 // Forward declarations
 void clear(WS2812 ledStrip);
@@ -732,67 +733,77 @@ void setDateTime(WS2812 ledStrip85, WS2812 ledStrip65, uint hours, uint minutes)
     ledStrip85.setPixelColor(6, 0, 20, 0);
     ledStrip85.setPixelColor(12, 0, 20, 0);
 
+    int index65;
+
     switch (hours)
     {
         case 0:
-            //ledStrip85.setPixelColor(18 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(18 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 18 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 1:
-            //ledStrip85.setPixelColor(20 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(20 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 20 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 2:
-            //ledStrip85.setPixelColor(22 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(22 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 22 + minutesShift - STRIP65_SHIFT, RED_HIGH;
             break;
 
         case 3:
-            //ledStrip85.setPixelColor(0 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(22 + minutesShift, RED_HIGH, 0, 0);
+            index65 = 24 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 4:
-            //ledStrip85.setPixelColor(2 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(2 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 26 + minutesShift - STRIP65_SHIFT;
+            if (index65 > 23) { index65 = 0; }
             break;
 
         case 5:
-            //ledStrip85.setPixelColor(4 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(4 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 4 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 6:
-            //ledStrip85.setPixelColor(6 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(6 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 6 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 7:
-            //ledStrip85.setPixelColor(8 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(8 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 8 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 8:
-            //ledStrip85.setPixelColor(10 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(10 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 10 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 9:
-            //ledStrip85.setPixelColor(12 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(12 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 12 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 10:
-            //ledStrip85.setPixelColor(14 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(14 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 14 + minutesShift - STRIP65_SHIFT;
             break;
 
         case 11:
-            //ledStrip85.setPixelColor(16 + minutesShift, RED_HIGH, 0, 0);
-            ledStrip65.setPixelColor(16 + minutesShift - STRIP65_SHIFT, RED_HIGH, 0, 0);
+            index65 = 16 + minutesShift - STRIP65_SHIFT;
             break;
+    }
+
+    ledStrip65.setPixelColor(index65, RED_HIGH, 0, 0);
+
+    if ((minutes > 1) && (minutes < 15))
+    {
+        ledStrip65.setPixelColor(index65+1, RED_LOW1, 0, 0);
+    }
+    else if ((minutes > 15) && (minutes < 30))
+    {
+        ledStrip65.setPixelColor(index65+1, RED_LOW2, 0, 0);
+    }
+    else if ((minutes > 30) && (minutes < 45))
+    {
+        ledStrip65.setPixelColor(index65+1, RED_LOW1, 0, 0);
+    }
+    else if ((minutes > 45) && (minutes <= 59))
+    {
+        ledStrip65.setPixelColor(index65+1, RED_LOW2, 0, 0);
     }
 
     switch (minutes)
@@ -1182,39 +1193,49 @@ void test1(WS2812 ledStrip85, WS2812 ledStrip65)
 
 void test2(WS2812 ledStrip85, WS2812 ledStrip65)
 {
-    for (uint hours = 0; hours <= 12; hours++)
-    {
-        for (uint minutes = 0; minutes < 60; minutes++)
-        {
-            setDateTime(ledStrip85, ledStrip65, hours, minutes);
+    // zero the entire display
+    memset(buf, 0, SSD1306_BUF_LEN);
+    render(buf, &frame_area);
 
-            sleep_ms(10);
-        }
-        sleep_ms(10);
+    char buffer[20];
+
+    for (uint hours = 0; hours < 12; hours++)
+    {
+        sprintf(buffer, "%02d:%02d:%02d", hours, 0, 0);
+        WriteString(buf, 5, 20, buffer);
+        render(buf, &frame_area);
+            
+        setDateTime(ledStrip85, ledStrip65, hours, 0);
+
+        sleep_ms(500);
     }
 }
 
 void test3(WS2812 ledStrip85, WS2812 ledStrip65)
 {
-    printf("Setting: 3:00\r\n");
-    setDateTime(ledStrip85, ledStrip65, 3, 0);
-    sleep_ms(250);
+    // zero the entire display
+    memset(buf, 0, SSD1306_BUF_LEN);
+    render(buf, &frame_area);
 
-    printf("Setting: 6:00\r\n");
-    setDateTime(ledStrip85, ledStrip65, 6, 0);
-    sleep_ms(250);
+    char buffer[20];
 
-    printf("Setting: 9:00\r\n");
-    setDateTime(ledStrip85, ledStrip65, 9, 0);
-    sleep_ms(250);
+    for (uint hours = 0; hours < 12; hours++)
+    {
+        for (uint minutes = 0; minutes < 60; minutes++)
+        {
+            sprintf(buffer, "%02d:%02d:%02d", hours, minutes, 0);
+            WriteString(buf, 5, 20, buffer);
+            render(buf, &frame_area);
+            
+            setDateTime(ledStrip85, ledStrip65, hours, minutes);
 
-    printf("Setting: 0:00\r\n");
-    setDateTime(ledStrip85, ledStrip65, 0, 0);
-    sleep_ms(250);
+            sleep_ms(50);
+        }
+        sleep_ms(100);
+    }
 }
 
-
-// WiFi config from SD car. If mot readed, config from CMakeList.txt is used
+// WiFi config from SD card. If mot readed, config from CMakeList.txt is used
 char wifiSSID[] = "                     ";
 char wifiPwd[] = "                     ";
 
@@ -1434,7 +1455,7 @@ WS2812 ledStrip65(
     test3(ledStrip85, ledStrip65);
     clear(ledStrip85);
     clear(ledStrip65);
-
+    
     //test1(ledStrip85, ledStrip65);
     //clear(ledStrip85);
     //clear(ledStrip65);

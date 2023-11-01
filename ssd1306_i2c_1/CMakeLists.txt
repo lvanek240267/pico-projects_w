@@ -1,3 +1,8 @@
+project(picow_ntp_client_background C CXX ASM)
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
+
+
 add_executable(picow_ntp_client_background
         ssd1306_i2c_1.cpp
         WS2812.cpp
@@ -66,3 +71,8 @@ target_link_libraries(picow_ntp_client_poll
         )
 
 pico_add_extra_outputs(picow_ntp_client_poll)
+
+
+# Enable usb output, disable uart output
+pico_enable_stdio_usb(${PROJECT_NAME} 1)
+pico_enable_stdio_uart(${PROJECT_NAME} 0)
