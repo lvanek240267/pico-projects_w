@@ -155,11 +155,11 @@ uint8_t buf[SSD1306_BUF_LEN];
 // Some constants for NeoPixel rings
 #define RED_HIGH 64     // High red color intensity
 #define RED_LOW1 1     // Low1 red color intensity
-#define RED_LOW2 8     // Low2 red color intensity
+#define RED_LOW2 2     // Low2 red color intensity
 
 #define BLUE_HIGH 64    // High blue color intensity
 #define BLUE_LOW1 1     // Low1 blue color intensity
-#define BLUE_LOW2 3     // Low2 blue color intensity
+#define BLUE_LOW2 2     // Low2 blue color intensity
 #define BLUE_LOW3 15    // Low3 blue color intensity
 #define BLUE_LOW4 20    // Low4 blue color intensity
 
