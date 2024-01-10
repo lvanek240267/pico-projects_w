@@ -158,12 +158,12 @@ uint8_t buf[SSD1306_BUF_LEN];
 #define RED_LOW2 8     // Low2 red color intensity
 
 #define BLUE_HIGH 64    // High blue color intensity
-#define BLUE_LOW1 3     // Low1 blue color intensity
-#define BLUE_LOW2 8     // Low2 blue color intensity
+#define BLUE_LOW1 1     // Low1 blue color intensity
+#define BLUE_LOW2 3     // Low2 blue color intensity
 #define BLUE_LOW3 15    // Low3 blue color intensity
 #define BLUE_LOW4 20    // Low4 blue color intensity
 
-#define STRIP65_SHIFT 3 // Because Inner ring is mounted 2 LEDs shifted against Outer ring due mounting holes shift
+#define STRIP65_SHIFT 3 // Because Inner ring is mounted 3 LEDs shifted against Outer ring due mounting holes shift
 
 // Forward declarations
 void clear(WS2812 ledStrip);
@@ -733,6 +733,11 @@ void setDateTime(WS2812 ledStrip85, WS2812 ledStrip65, uint hours, uint minutes)
     ledStrip85.setPixelColor(6, 0, 20, 0);
     ledStrip85.setPixelColor(12, 0, 20, 0);
 
+    ledStrip65.setPixelColor(15, 0, 20, 0);
+    ledStrip65.setPixelColor(21, 0, 20, 0);
+    ledStrip65.setPixelColor(3, 0, 20, 0);
+    ledStrip65.setPixelColor(9, 0, 20, 0);
+
     int index65;
 
     switch (hours)
@@ -788,22 +793,27 @@ void setDateTime(WS2812 ledStrip85, WS2812 ledStrip65, uint hours, uint minutes)
     }
 
     ledStrip65.setPixelColor(index65, RED_HIGH, 0, 0);
+    printf("ledStrip65: %02d RED_HIGH", index65);
 
     if ((minutes > 1) && (minutes < 15))
     {
         ledStrip65.setPixelColor(index65+1, RED_LOW1, 0, 0);
+        printf("ledStrip65: %02d RED_LOW1", index65+1);
     }
     else if ((minutes > 15) && (minutes < 30))
     {
         ledStrip65.setPixelColor(index65+1, RED_LOW2, 0, 0);
+        printf("ledStrip65: %02d RED_LOW2", index65);
     }
     else if ((minutes > 30) && (minutes < 45))
     {
         ledStrip65.setPixelColor(index65+1, RED_LOW1, 0, 0);
+        printf("ledStrip65: %02d RED_LOW1", index65);
     }
     else if ((minutes > 45) && (minutes <= 59))
     {
         ledStrip65.setPixelColor(index65+1, RED_LOW2, 0, 0);
+        printf("ledStrip65: %02d RED_LOW2", index65);
     }
 
     switch (minutes)
