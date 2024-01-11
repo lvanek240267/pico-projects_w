@@ -163,6 +163,8 @@ uint8_t buf[SSD1306_BUF_LEN];
 #define BLUE_LOW3 15    // Low3 blue color intensity
 #define BLUE_LOW4 20    // Low4 blue color intensity
 
+
+
 #define STRIP65_SHIFT 3 // Because Inner ring is mounted 3 LEDs shifted against Outer ring due mounting holes shift
 
 // Forward declarations
@@ -733,10 +735,10 @@ void setDateTime(WS2812 ledStrip85, WS2812 ledStrip65, uint hours, uint minutes)
     ledStrip85.setPixelColor(6, 0, 20, 0);
     ledStrip85.setPixelColor(12, 0, 20, 0);
 
-    ledStrip65.setPixelColor(15, 0, 20, 0);
-    ledStrip65.setPixelColor(21, 0, 20, 0);
-    ledStrip65.setPixelColor(3, 0, 20, 0);
-    ledStrip65.setPixelColor(9, 0, 20, 0);
+    ledStrip65.setPixelColor(18 - STRIP65_SHIFT, 0, 20, 0);
+    ledStrip65.setPixelColor(24 - STRIP65_SHIFT, 0, 20, 0);
+    ledStrip65.setPixelColor(6 - STRIP65_SHIFT, 0, 20, 0);
+    ledStrip65.setPixelColor(12 - STRIP65_SHIFT, 0, 20, 0);
 
     int index65;
 
