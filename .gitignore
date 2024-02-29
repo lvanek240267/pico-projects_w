@@ -5,6 +5,7 @@ cmake-*
 *.pdf
 *.obj
 CMakeCache.txt
+.ninja*.*
 build/.cmake
 build/.ninja_log
 build/.ninja_deps
