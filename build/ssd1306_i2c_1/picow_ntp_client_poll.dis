@@ -35,17 +35,17 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  15 .debug_abbrev 0000e861  00000000  00000000  000bc5c3  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_loc    00041e89  00000000  00000000  000cae24  2**0
+ 16 .debug_loc    00041ea3  00000000  00000000  000cae24  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_aranges 00002998  00000000  00000000  0010ccb0  2**3
+ 17 .debug_aranges 00002998  00000000  00000000  0010ccc8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_ranges 00008438  00000000  00000000  0010f648  2**3
+ 18 .debug_ranges 00008438  00000000  00000000  0010f660  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_line   000396f1  00000000  00000000  00117a80  2**0
+ 19 .debug_line   000396f1  00000000  00000000  00117a98  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_str    0000cf42  00000000  00000000  00151171  2**0
+ 20 .debug_str    0000cf42  00000000  00000000  00151189  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_frame  000074d8  00000000  00000000  0015e0b4  2**2
+ 21 .debug_frame  000074d8  00000000  00000000  0015e0cc  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 D:/Home/Development/Personal/PICO/pico-projects_w/build/ssd1306_i2c_1/======picow_ntp_client_poll.elf:     file format elf32-littlearm
@@ -1047,25 +1047,25 @@ Disassembly of section .text:
 1000092a:	9700      	str	r7, [sp, #0]
 1000092c:	2314      	movs	r3, #20
 1000092e:	2200      	movs	r2, #0
-10000930:	2110      	movs	r1, #16
+10000930:	210f      	movs	r1, #15
 10000932:	0020      	movs	r0, r4
 10000934:	f001 f93a 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
 10000938:	9700      	str	r7, [sp, #0]
 1000093a:	2314      	movs	r3, #20
 1000093c:	2200      	movs	r2, #0
-1000093e:	2116      	movs	r1, #22
+1000093e:	2115      	movs	r1, #21
 10000940:	0020      	movs	r0, r4
 10000942:	f001 f933 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
 10000946:	9700      	str	r7, [sp, #0]
 10000948:	2314      	movs	r3, #20
 1000094a:	2200      	movs	r2, #0
-1000094c:	2104      	movs	r1, #4
+1000094c:	2103      	movs	r1, #3
 1000094e:	0020      	movs	r0, r4
 10000950:	f001 f92c 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
 10000954:	9700      	str	r7, [sp, #0]
 10000956:	2314      	movs	r3, #20
 10000958:	2200      	movs	r2, #0
-1000095a:	210a      	movs	r1, #10
+1000095a:	2109      	movs	r1, #9
 1000095c:	0020      	movs	r0, r4
 1000095e:	f001 f925 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
 10000962:	4643      	mov	r3, r8
@@ -1078,7 +1078,7 @@ Disassembly of section .text:
 10000970:	2301      	movs	r3, #1
 10000972:	469a      	mov	sl, r3
 10000974:	e7bc      	b.n	100008f0 <_Z11setDateTime6WS2812S_jj+0x94>
-10000976:	2310      	movs	r3, #16
+10000976:	230f      	movs	r3, #15
 10000978:	4453      	add	r3, sl
 1000097a:	4699      	mov	r9, r3
 1000097c:	2300      	movs	r3, #0
@@ -1092,19 +1092,19 @@ Disassembly of section .text:
 1000098e:	f015 feef 	bl	10016770 <__wrap_printf>
 10000992:	1eb3      	subs	r3, r6, #2
 10000994:	2b0c      	cmp	r3, #12
-10000996:	d946      	bls.n	10000a26 <_Z11setDateTime6WS2812S_jj+0x1ca>
+10000996:	d947      	bls.n	10000a28 <_Z11setDateTime6WS2812S_jj+0x1cc>
 10000998:	0033      	movs	r3, r6
 1000099a:	3b10      	subs	r3, #16
 1000099c:	2b0d      	cmp	r3, #13
-1000099e:	d955      	bls.n	10000a4c <_Z11setDateTime6WS2812S_jj+0x1f0>
+1000099e:	d956      	bls.n	10000a4e <_Z11setDateTime6WS2812S_jj+0x1f2>
 100009a0:	0033      	movs	r3, r6
 100009a2:	3b1f      	subs	r3, #31
 100009a4:	2b0d      	cmp	r3, #13
-100009a6:	d95e      	bls.n	10000a66 <_Z11setDateTime6WS2812S_jj+0x20a>
+100009a6:	d95f      	bls.n	10000a68 <_Z11setDateTime6WS2812S_jj+0x20c>
 100009a8:	0033      	movs	r3, r6
 100009aa:	3b2e      	subs	r3, #46	; 0x2e
 100009ac:	2b0d      	cmp	r3, #13
-100009ae:	d847      	bhi.n	10000a40 <_Z11setDateTime6WS2812S_jj+0x1e4>
+100009ae:	d848      	bhi.n	10000a42 <_Z11setDateTime6WS2812S_jj+0x1e6>
 100009b0:	464b      	mov	r3, r9
 100009b2:	1c59      	adds	r1, r3, #1
 100009b4:	2300      	movs	r3, #0
@@ -1115,253 +1115,253 @@ Disassembly of section .text:
 100009c0:	4649      	mov	r1, r9
 100009c2:	488e      	ldr	r0, [pc, #568]	; (10000bfc <_Z11setDateTime6WS2812S_jj+0x3a0>)
 100009c4:	f015 fed4 	bl	10016770 <__wrap_printf>
-100009c8:	e03a      	b.n	10000a40 <_Z11setDateTime6WS2812S_jj+0x1e4>
-100009ca:	2312      	movs	r3, #18
+100009c8:	e03b      	b.n	10000a42 <_Z11setDateTime6WS2812S_jj+0x1e6>
+100009ca:	2311      	movs	r3, #17
 100009cc:	4453      	add	r3, sl
 100009ce:	4699      	mov	r9, r3
 100009d0:	e7d4      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009d2:	2314      	movs	r3, #20
+100009d2:	2313      	movs	r3, #19
 100009d4:	4453      	add	r3, sl
 100009d6:	4699      	mov	r9, r3
 100009d8:	e7d0      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009da:	2316      	movs	r3, #22
+100009da:	2315      	movs	r3, #21
 100009dc:	4453      	add	r3, sl
 100009de:	4699      	mov	r9, r3
 100009e0:	e7cc      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
 100009e2:	4653      	mov	r3, sl
-100009e4:	3318      	adds	r3, #24
-100009e6:	2b17      	cmp	r3, #23
-100009e8:	dcc8      	bgt.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009ea:	4699      	mov	r9, r3
-100009ec:	e7c6      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009ee:	2302      	movs	r3, #2
-100009f0:	4453      	add	r3, sl
-100009f2:	4699      	mov	r9, r3
-100009f4:	e7c2      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009f6:	2304      	movs	r3, #4
-100009f8:	4453      	add	r3, sl
-100009fa:	4699      	mov	r9, r3
-100009fc:	e7be      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-100009fe:	2306      	movs	r3, #6
-10000a00:	4453      	add	r3, sl
-10000a02:	4699      	mov	r9, r3
-10000a04:	e7ba      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-10000a06:	2308      	movs	r3, #8
-10000a08:	4453      	add	r3, sl
-10000a0a:	4699      	mov	r9, r3
-10000a0c:	e7b6      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-10000a0e:	230a      	movs	r3, #10
-10000a10:	4453      	add	r3, sl
-10000a12:	4699      	mov	r9, r3
-10000a14:	e7b2      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-10000a16:	230c      	movs	r3, #12
-10000a18:	4453      	add	r3, sl
-10000a1a:	4699      	mov	r9, r3
-10000a1c:	e7ae      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-10000a1e:	230e      	movs	r3, #14
-10000a20:	4453      	add	r3, sl
-10000a22:	4699      	mov	r9, r3
-10000a24:	e7aa      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
-10000a26:	464f      	mov	r7, r9
-10000a28:	3701      	adds	r7, #1
-10000a2a:	2300      	movs	r3, #0
-10000a2c:	9300      	str	r3, [sp, #0]
-10000a2e:	2201      	movs	r2, #1
-10000a30:	0039      	movs	r1, r7
-10000a32:	0020      	movs	r0, r4
-10000a34:	f001 f8ba 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000a38:	0039      	movs	r1, r7
-10000a3a:	4871      	ldr	r0, [pc, #452]	; (10000c00 <_Z11setDateTime6WS2812S_jj+0x3a4>)
-10000a3c:	f015 fe98 	bl	10016770 <__wrap_printf>
-10000a40:	2e3b      	cmp	r6, #59	; 0x3b
-10000a42:	d825      	bhi.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000a44:	00b6      	lsls	r6, r6, #2
-10000a46:	4b6f      	ldr	r3, [pc, #444]	; (10000c04 <_Z11setDateTime6WS2812S_jj+0x3a8>)
-10000a48:	599b      	ldr	r3, [r3, r6]
-10000a4a:	469f      	mov	pc, r3
-10000a4c:	464b      	mov	r3, r9
-10000a4e:	1c59      	adds	r1, r3, #1
-10000a50:	2300      	movs	r3, #0
-10000a52:	9300      	str	r3, [sp, #0]
-10000a54:	2202      	movs	r2, #2
-10000a56:	0020      	movs	r0, r4
-10000a58:	f001 f8a8 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000a5c:	4649      	mov	r1, r9
-10000a5e:	4867      	ldr	r0, [pc, #412]	; (10000bfc <_Z11setDateTime6WS2812S_jj+0x3a0>)
-10000a60:	f015 fe86 	bl	10016770 <__wrap_printf>
-10000a64:	e7ec      	b.n	10000a40 <_Z11setDateTime6WS2812S_jj+0x1e4>
-10000a66:	464b      	mov	r3, r9
-10000a68:	1c59      	adds	r1, r3, #1
-10000a6a:	2300      	movs	r3, #0
-10000a6c:	9300      	str	r3, [sp, #0]
-10000a6e:	2201      	movs	r2, #1
-10000a70:	0020      	movs	r0, r4
-10000a72:	f001 f89b 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000a76:	4649      	mov	r1, r9
-10000a78:	4861      	ldr	r0, [pc, #388]	; (10000c00 <_Z11setDateTime6WS2812S_jj+0x3a4>)
-10000a7a:	f015 fe79 	bl	10016770 <__wrap_printf>
-10000a7e:	e7df      	b.n	10000a40 <_Z11setDateTime6WS2812S_jj+0x1e4>
-10000a80:	2340      	movs	r3, #64	; 0x40
-10000a82:	9300      	str	r3, [sp, #0]
-10000a84:	2300      	movs	r3, #0
-10000a86:	2200      	movs	r2, #0
-10000a88:	2112      	movs	r1, #18
-10000a8a:	0028      	movs	r0, r5
-10000a8c:	f001 f88e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000a90:	0028      	movs	r0, r5
-10000a92:	f001 f8a8 	bl	10001be6 <_ZN6WS28124showEv>
-10000a96:	0020      	movs	r0, r4
-10000a98:	f001 f8a5 	bl	10001be6 <_ZN6WS28124showEv>
-10000a9c:	4b54      	ldr	r3, [pc, #336]	; (10000bf0 <_Z11setDateTime6WS2812S_jj+0x394>)
-10000a9e:	681a      	ldr	r2, [r3, #0]
-10000aa0:	685b      	ldr	r3, [r3, #4]
-10000aa2:	f3bf 8f5f 	dmb	sy
-10000aa6:	2100      	movs	r1, #0
-10000aa8:	6011      	str	r1, [r2, #0]
-10000aaa:	f383 8810 	msr	PRIMASK, r3
-10000aae:	b00e      	add	sp, #56	; 0x38
-10000ab0:	bce0      	pop	{r5, r6, r7}
-10000ab2:	46ba      	mov	sl, r7
-10000ab4:	46b1      	mov	r9, r6
-10000ab6:	46a8      	mov	r8, r5
-10000ab8:	bdf0      	pop	{r4, r5, r6, r7, pc}
-10000aba:	2314      	movs	r3, #20
-10000abc:	9300      	str	r3, [sp, #0]
-10000abe:	2300      	movs	r3, #0
-10000ac0:	2200      	movs	r2, #0
-10000ac2:	2112      	movs	r1, #18
-10000ac4:	0028      	movs	r0, r5
-10000ac6:	f001 f871 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000aca:	2301      	movs	r3, #1
-10000acc:	9300      	str	r3, [sp, #0]
-10000ace:	2300      	movs	r3, #0
-10000ad0:	2200      	movs	r2, #0
-10000ad2:	2113      	movs	r1, #19
-10000ad4:	0028      	movs	r0, r5
-10000ad6:	f001 f869 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ada:	e7d9      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000adc:	230f      	movs	r3, #15
-10000ade:	9300      	str	r3, [sp, #0]
-10000ae0:	2300      	movs	r3, #0
-10000ae2:	2200      	movs	r2, #0
-10000ae4:	2112      	movs	r1, #18
-10000ae6:	0028      	movs	r0, r5
-10000ae8:	f001 f860 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000aec:	2302      	movs	r3, #2
-10000aee:	9300      	str	r3, [sp, #0]
-10000af0:	2300      	movs	r3, #0
-10000af2:	2200      	movs	r2, #0
-10000af4:	2113      	movs	r1, #19
-10000af6:	0028      	movs	r0, r5
-10000af8:	f001 f858 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000afc:	e7c8      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000afe:	2302      	movs	r3, #2
-10000b00:	9300      	str	r3, [sp, #0]
-10000b02:	2300      	movs	r3, #0
-10000b04:	2200      	movs	r2, #0
-10000b06:	2112      	movs	r1, #18
-10000b08:	0028      	movs	r0, r5
-10000b0a:	f001 f84f 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b0e:	230f      	movs	r3, #15
-10000b10:	9300      	str	r3, [sp, #0]
-10000b12:	2300      	movs	r3, #0
-10000b14:	2200      	movs	r2, #0
-10000b16:	2113      	movs	r1, #19
-10000b18:	0028      	movs	r0, r5
-10000b1a:	f001 f847 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b1e:	e7b7      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000b20:	2301      	movs	r3, #1
-10000b22:	9300      	str	r3, [sp, #0]
-10000b24:	2300      	movs	r3, #0
-10000b26:	2200      	movs	r2, #0
-10000b28:	2112      	movs	r1, #18
-10000b2a:	0028      	movs	r0, r5
-10000b2c:	f001 f83e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b30:	2314      	movs	r3, #20
-10000b32:	9300      	str	r3, [sp, #0]
-10000b34:	2300      	movs	r3, #0
-10000b36:	2200      	movs	r2, #0
-10000b38:	2113      	movs	r1, #19
-10000b3a:	0028      	movs	r0, r5
-10000b3c:	f001 f836 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b40:	e7a6      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000b42:	2340      	movs	r3, #64	; 0x40
-10000b44:	9300      	str	r3, [sp, #0]
-10000b46:	2300      	movs	r3, #0
-10000b48:	2200      	movs	r2, #0
-10000b4a:	2114      	movs	r1, #20
-10000b4c:	0028      	movs	r0, r5
-10000b4e:	f001 f82d 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b52:	e79d      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000b54:	2314      	movs	r3, #20
-10000b56:	9300      	str	r3, [sp, #0]
-10000b58:	2300      	movs	r3, #0
-10000b5a:	2200      	movs	r2, #0
-10000b5c:	2114      	movs	r1, #20
-10000b5e:	0028      	movs	r0, r5
-10000b60:	f001 f824 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b64:	2301      	movs	r3, #1
-10000b66:	9300      	str	r3, [sp, #0]
-10000b68:	2300      	movs	r3, #0
-10000b6a:	2200      	movs	r2, #0
-10000b6c:	2115      	movs	r1, #21
-10000b6e:	0028      	movs	r0, r5
-10000b70:	f001 f81c 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b74:	e78c      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000b76:	230f      	movs	r3, #15
-10000b78:	9300      	str	r3, [sp, #0]
-10000b7a:	2300      	movs	r3, #0
-10000b7c:	2200      	movs	r2, #0
-10000b7e:	2114      	movs	r1, #20
-10000b80:	0028      	movs	r0, r5
-10000b82:	f001 f813 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b86:	2302      	movs	r3, #2
-10000b88:	9300      	str	r3, [sp, #0]
-10000b8a:	2300      	movs	r3, #0
-10000b8c:	2200      	movs	r2, #0
-10000b8e:	2115      	movs	r1, #21
-10000b90:	0028      	movs	r0, r5
-10000b92:	f001 f80b 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000b96:	e77b      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000b98:	2302      	movs	r3, #2
-10000b9a:	9300      	str	r3, [sp, #0]
-10000b9c:	2300      	movs	r3, #0
-10000b9e:	2200      	movs	r2, #0
-10000ba0:	2114      	movs	r1, #20
-10000ba2:	0028      	movs	r0, r5
-10000ba4:	f001 f802 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ba8:	230f      	movs	r3, #15
-10000baa:	9300      	str	r3, [sp, #0]
-10000bac:	2300      	movs	r3, #0
-10000bae:	2200      	movs	r2, #0
-10000bb0:	2115      	movs	r1, #21
-10000bb2:	0028      	movs	r0, r5
-10000bb4:	f000 fffa 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000bb8:	e76a      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000bba:	2301      	movs	r3, #1
-10000bbc:	9300      	str	r3, [sp, #0]
-10000bbe:	2300      	movs	r3, #0
-10000bc0:	2200      	movs	r2, #0
-10000bc2:	2114      	movs	r1, #20
-10000bc4:	0028      	movs	r0, r5
-10000bc6:	f000 fff1 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000bca:	2314      	movs	r3, #20
-10000bcc:	9300      	str	r3, [sp, #0]
-10000bce:	2300      	movs	r3, #0
-10000bd0:	2200      	movs	r2, #0
-10000bd2:	2115      	movs	r1, #21
-10000bd4:	0028      	movs	r0, r5
-10000bd6:	f000 ffe9 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000bda:	e759      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000bdc:	2340      	movs	r3, #64	; 0x40
-10000bde:	9300      	str	r3, [sp, #0]
-10000be0:	2300      	movs	r3, #0
-10000be2:	2200      	movs	r2, #0
-10000be4:	2116      	movs	r1, #22
-10000be6:	0028      	movs	r0, r5
-10000be8:	f000 ffe0 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000bec:	e750      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
-10000bee:	46c0      	nop			; (mov r8, r8)
+100009e4:	3317      	adds	r3, #23
+100009e6:	4652      	mov	r2, sl
+100009e8:	2a00      	cmp	r2, #0
+100009ea:	d1c7      	bne.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+100009ec:	4699      	mov	r9, r3
+100009ee:	e7c5      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+100009f0:	2301      	movs	r3, #1
+100009f2:	4453      	add	r3, sl
+100009f4:	4699      	mov	r9, r3
+100009f6:	e7c1      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+100009f8:	2303      	movs	r3, #3
+100009fa:	4453      	add	r3, sl
+100009fc:	4699      	mov	r9, r3
+100009fe:	e7bd      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a00:	2305      	movs	r3, #5
+10000a02:	4453      	add	r3, sl
+10000a04:	4699      	mov	r9, r3
+10000a06:	e7b9      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a08:	2307      	movs	r3, #7
+10000a0a:	4453      	add	r3, sl
+10000a0c:	4699      	mov	r9, r3
+10000a0e:	e7b5      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a10:	2309      	movs	r3, #9
+10000a12:	4453      	add	r3, sl
+10000a14:	4699      	mov	r9, r3
+10000a16:	e7b1      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a18:	230b      	movs	r3, #11
+10000a1a:	4453      	add	r3, sl
+10000a1c:	4699      	mov	r9, r3
+10000a1e:	e7ad      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a20:	230d      	movs	r3, #13
+10000a22:	4453      	add	r3, sl
+10000a24:	4699      	mov	r9, r3
+10000a26:	e7a9      	b.n	1000097c <_Z11setDateTime6WS2812S_jj+0x120>
+10000a28:	464f      	mov	r7, r9
+10000a2a:	3701      	adds	r7, #1
+10000a2c:	2300      	movs	r3, #0
+10000a2e:	9300      	str	r3, [sp, #0]
+10000a30:	2201      	movs	r2, #1
+10000a32:	0039      	movs	r1, r7
+10000a34:	0020      	movs	r0, r4
+10000a36:	f001 f8b9 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000a3a:	0039      	movs	r1, r7
+10000a3c:	4870      	ldr	r0, [pc, #448]	; (10000c00 <_Z11setDateTime6WS2812S_jj+0x3a4>)
+10000a3e:	f015 fe97 	bl	10016770 <__wrap_printf>
+10000a42:	2e3b      	cmp	r6, #59	; 0x3b
+10000a44:	d825      	bhi.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000a46:	00b6      	lsls	r6, r6, #2
+10000a48:	4b6e      	ldr	r3, [pc, #440]	; (10000c04 <_Z11setDateTime6WS2812S_jj+0x3a8>)
+10000a4a:	599b      	ldr	r3, [r3, r6]
+10000a4c:	469f      	mov	pc, r3
+10000a4e:	464b      	mov	r3, r9
+10000a50:	1c59      	adds	r1, r3, #1
+10000a52:	2300      	movs	r3, #0
+10000a54:	9300      	str	r3, [sp, #0]
+10000a56:	2202      	movs	r2, #2
+10000a58:	0020      	movs	r0, r4
+10000a5a:	f001 f8a7 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000a5e:	4649      	mov	r1, r9
+10000a60:	4866      	ldr	r0, [pc, #408]	; (10000bfc <_Z11setDateTime6WS2812S_jj+0x3a0>)
+10000a62:	f015 fe85 	bl	10016770 <__wrap_printf>
+10000a66:	e7ec      	b.n	10000a42 <_Z11setDateTime6WS2812S_jj+0x1e6>
+10000a68:	464b      	mov	r3, r9
+10000a6a:	1c59      	adds	r1, r3, #1
+10000a6c:	2300      	movs	r3, #0
+10000a6e:	9300      	str	r3, [sp, #0]
+10000a70:	2201      	movs	r2, #1
+10000a72:	0020      	movs	r0, r4
+10000a74:	f001 f89a 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000a78:	4649      	mov	r1, r9
+10000a7a:	4861      	ldr	r0, [pc, #388]	; (10000c00 <_Z11setDateTime6WS2812S_jj+0x3a4>)
+10000a7c:	f015 fe78 	bl	10016770 <__wrap_printf>
+10000a80:	e7df      	b.n	10000a42 <_Z11setDateTime6WS2812S_jj+0x1e6>
+10000a82:	2340      	movs	r3, #64	; 0x40
+10000a84:	9300      	str	r3, [sp, #0]
+10000a86:	2300      	movs	r3, #0
+10000a88:	2200      	movs	r2, #0
+10000a8a:	2112      	movs	r1, #18
+10000a8c:	0028      	movs	r0, r5
+10000a8e:	f001 f88d 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000a92:	0028      	movs	r0, r5
+10000a94:	f001 f8a7 	bl	10001be6 <_ZN6WS28124showEv>
+10000a98:	0020      	movs	r0, r4
+10000a9a:	f001 f8a4 	bl	10001be6 <_ZN6WS28124showEv>
+10000a9e:	4b54      	ldr	r3, [pc, #336]	; (10000bf0 <_Z11setDateTime6WS2812S_jj+0x394>)
+10000aa0:	681a      	ldr	r2, [r3, #0]
+10000aa2:	685b      	ldr	r3, [r3, #4]
+10000aa4:	f3bf 8f5f 	dmb	sy
+10000aa8:	2100      	movs	r1, #0
+10000aaa:	6011      	str	r1, [r2, #0]
+10000aac:	f383 8810 	msr	PRIMASK, r3
+10000ab0:	b00e      	add	sp, #56	; 0x38
+10000ab2:	bce0      	pop	{r5, r6, r7}
+10000ab4:	46ba      	mov	sl, r7
+10000ab6:	46b1      	mov	r9, r6
+10000ab8:	46a8      	mov	r8, r5
+10000aba:	bdf0      	pop	{r4, r5, r6, r7, pc}
+10000abc:	2314      	movs	r3, #20
+10000abe:	9300      	str	r3, [sp, #0]
+10000ac0:	2300      	movs	r3, #0
+10000ac2:	2200      	movs	r2, #0
+10000ac4:	2112      	movs	r1, #18
+10000ac6:	0028      	movs	r0, r5
+10000ac8:	f001 f870 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000acc:	2301      	movs	r3, #1
+10000ace:	9300      	str	r3, [sp, #0]
+10000ad0:	2300      	movs	r3, #0
+10000ad2:	2200      	movs	r2, #0
+10000ad4:	2113      	movs	r1, #19
+10000ad6:	0028      	movs	r0, r5
+10000ad8:	f001 f868 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000adc:	e7d9      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000ade:	230f      	movs	r3, #15
+10000ae0:	9300      	str	r3, [sp, #0]
+10000ae2:	2300      	movs	r3, #0
+10000ae4:	2200      	movs	r2, #0
+10000ae6:	2112      	movs	r1, #18
+10000ae8:	0028      	movs	r0, r5
+10000aea:	f001 f85f 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000aee:	2302      	movs	r3, #2
+10000af0:	9300      	str	r3, [sp, #0]
+10000af2:	2300      	movs	r3, #0
+10000af4:	2200      	movs	r2, #0
+10000af6:	2113      	movs	r1, #19
+10000af8:	0028      	movs	r0, r5
+10000afa:	f001 f857 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000afe:	e7c8      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b00:	2302      	movs	r3, #2
+10000b02:	9300      	str	r3, [sp, #0]
+10000b04:	2300      	movs	r3, #0
+10000b06:	2200      	movs	r2, #0
+10000b08:	2112      	movs	r1, #18
+10000b0a:	0028      	movs	r0, r5
+10000b0c:	f001 f84e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b10:	230f      	movs	r3, #15
+10000b12:	9300      	str	r3, [sp, #0]
+10000b14:	2300      	movs	r3, #0
+10000b16:	2200      	movs	r2, #0
+10000b18:	2113      	movs	r1, #19
+10000b1a:	0028      	movs	r0, r5
+10000b1c:	f001 f846 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b20:	e7b7      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b22:	2301      	movs	r3, #1
+10000b24:	9300      	str	r3, [sp, #0]
+10000b26:	2300      	movs	r3, #0
+10000b28:	2200      	movs	r2, #0
+10000b2a:	2112      	movs	r1, #18
+10000b2c:	0028      	movs	r0, r5
+10000b2e:	f001 f83d 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b32:	2314      	movs	r3, #20
+10000b34:	9300      	str	r3, [sp, #0]
+10000b36:	2300      	movs	r3, #0
+10000b38:	2200      	movs	r2, #0
+10000b3a:	2113      	movs	r1, #19
+10000b3c:	0028      	movs	r0, r5
+10000b3e:	f001 f835 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b42:	e7a6      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b44:	2340      	movs	r3, #64	; 0x40
+10000b46:	9300      	str	r3, [sp, #0]
+10000b48:	2300      	movs	r3, #0
+10000b4a:	2200      	movs	r2, #0
+10000b4c:	2114      	movs	r1, #20
+10000b4e:	0028      	movs	r0, r5
+10000b50:	f001 f82c 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b54:	e79d      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b56:	2314      	movs	r3, #20
+10000b58:	9300      	str	r3, [sp, #0]
+10000b5a:	2300      	movs	r3, #0
+10000b5c:	2200      	movs	r2, #0
+10000b5e:	2114      	movs	r1, #20
+10000b60:	0028      	movs	r0, r5
+10000b62:	f001 f823 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b66:	2301      	movs	r3, #1
+10000b68:	9300      	str	r3, [sp, #0]
+10000b6a:	2300      	movs	r3, #0
+10000b6c:	2200      	movs	r2, #0
+10000b6e:	2115      	movs	r1, #21
+10000b70:	0028      	movs	r0, r5
+10000b72:	f001 f81b 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b76:	e78c      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b78:	230f      	movs	r3, #15
+10000b7a:	9300      	str	r3, [sp, #0]
+10000b7c:	2300      	movs	r3, #0
+10000b7e:	2200      	movs	r2, #0
+10000b80:	2114      	movs	r1, #20
+10000b82:	0028      	movs	r0, r5
+10000b84:	f001 f812 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b88:	2302      	movs	r3, #2
+10000b8a:	9300      	str	r3, [sp, #0]
+10000b8c:	2300      	movs	r3, #0
+10000b8e:	2200      	movs	r2, #0
+10000b90:	2115      	movs	r1, #21
+10000b92:	0028      	movs	r0, r5
+10000b94:	f001 f80a 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000b98:	e77b      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000b9a:	2302      	movs	r3, #2
+10000b9c:	9300      	str	r3, [sp, #0]
+10000b9e:	2300      	movs	r3, #0
+10000ba0:	2200      	movs	r2, #0
+10000ba2:	2114      	movs	r1, #20
+10000ba4:	0028      	movs	r0, r5
+10000ba6:	f001 f801 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000baa:	230f      	movs	r3, #15
+10000bac:	9300      	str	r3, [sp, #0]
+10000bae:	2300      	movs	r3, #0
+10000bb0:	2200      	movs	r2, #0
+10000bb2:	2115      	movs	r1, #21
+10000bb4:	0028      	movs	r0, r5
+10000bb6:	f000 fff9 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000bba:	e76a      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000bbc:	2301      	movs	r3, #1
+10000bbe:	9300      	str	r3, [sp, #0]
+10000bc0:	2300      	movs	r3, #0
+10000bc2:	2200      	movs	r2, #0
+10000bc4:	2114      	movs	r1, #20
+10000bc6:	0028      	movs	r0, r5
+10000bc8:	f000 fff0 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000bcc:	2314      	movs	r3, #20
+10000bce:	9300      	str	r3, [sp, #0]
+10000bd0:	2300      	movs	r3, #0
+10000bd2:	2200      	movs	r2, #0
+10000bd4:	2115      	movs	r1, #21
+10000bd6:	0028      	movs	r0, r5
+10000bd8:	f000 ffe8 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000bdc:	e759      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
+10000bde:	2340      	movs	r3, #64	; 0x40
+10000be0:	9300      	str	r3, [sp, #0]
+10000be2:	2300      	movs	r3, #0
+10000be4:	2200      	movs	r2, #0
+10000be6:	2116      	movs	r1, #22
+10000be8:	0028      	movs	r0, r5
+10000bea:	f000 ffdf 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
+10000bee:	e750      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000bf0:	2000c5d8 	.word	0x2000c5d8
 10000bf4:	100183c8 	.word	0x100183c8
 10000bf8:	10018374 	.word	0x10018374
@@ -1382,7 +1382,7 @@ Disassembly of section .text:
 10000c20:	2117      	movs	r1, #23
 10000c22:	0028      	movs	r0, r5
 10000c24:	f000 ffc2 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000c28:	e732      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000c28:	e733      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000c2a:	230f      	movs	r3, #15
 10000c2c:	9300      	str	r3, [sp, #0]
 10000c2e:	2300      	movs	r3, #0
@@ -1397,7 +1397,7 @@ Disassembly of section .text:
 10000c42:	2117      	movs	r1, #23
 10000c44:	0028      	movs	r0, r5
 10000c46:	f000 ffb1 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000c4a:	e721      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000c4a:	e722      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000c4c:	2302      	movs	r3, #2
 10000c4e:	9300      	str	r3, [sp, #0]
 10000c50:	2300      	movs	r3, #0
@@ -1412,7 +1412,7 @@ Disassembly of section .text:
 10000c64:	2117      	movs	r1, #23
 10000c66:	0028      	movs	r0, r5
 10000c68:	f000 ffa0 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000c6c:	e710      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000c6c:	e711      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000c6e:	2301      	movs	r3, #1
 10000c70:	9300      	str	r3, [sp, #0]
 10000c72:	2300      	movs	r3, #0
@@ -1427,7 +1427,7 @@ Disassembly of section .text:
 10000c86:	2117      	movs	r1, #23
 10000c88:	0028      	movs	r0, r5
 10000c8a:	f000 ff8f 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000c8e:	e6ff      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000c8e:	e700      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000c90:	2340      	movs	r3, #64	; 0x40
 10000c92:	9300      	str	r3, [sp, #0]
 10000c94:	2300      	movs	r3, #0
@@ -1435,7 +1435,7 @@ Disassembly of section .text:
 10000c98:	2100      	movs	r1, #0
 10000c9a:	0028      	movs	r0, r5
 10000c9c:	f000 ff86 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ca0:	e6f6      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000ca0:	e6f7      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000ca2:	2314      	movs	r3, #20
 10000ca4:	9300      	str	r3, [sp, #0]
 10000ca6:	2300      	movs	r3, #0
@@ -1450,7 +1450,7 @@ Disassembly of section .text:
 10000cba:	2101      	movs	r1, #1
 10000cbc:	0028      	movs	r0, r5
 10000cbe:	f000 ff75 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000cc2:	e6e5      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000cc2:	e6e6      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000cc4:	230f      	movs	r3, #15
 10000cc6:	9300      	str	r3, [sp, #0]
 10000cc8:	2300      	movs	r3, #0
@@ -1465,7 +1465,7 @@ Disassembly of section .text:
 10000cdc:	2101      	movs	r1, #1
 10000cde:	0028      	movs	r0, r5
 10000ce0:	f000 ff64 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ce4:	e6d4      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000ce4:	e6d5      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000ce6:	2302      	movs	r3, #2
 10000ce8:	9300      	str	r3, [sp, #0]
 10000cea:	2300      	movs	r3, #0
@@ -1480,7 +1480,7 @@ Disassembly of section .text:
 10000cfe:	2101      	movs	r1, #1
 10000d00:	0028      	movs	r0, r5
 10000d02:	f000 ff53 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000d06:	e6c3      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000d06:	e6c4      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000d08:	2301      	movs	r3, #1
 10000d0a:	9300      	str	r3, [sp, #0]
 10000d0c:	2300      	movs	r3, #0
@@ -1495,7 +1495,7 @@ Disassembly of section .text:
 10000d20:	2101      	movs	r1, #1
 10000d22:	0028      	movs	r0, r5
 10000d24:	f000 ff42 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000d28:	e6b2      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000d28:	e6b3      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000d2a:	2340      	movs	r3, #64	; 0x40
 10000d2c:	9300      	str	r3, [sp, #0]
 10000d2e:	2300      	movs	r3, #0
@@ -1503,7 +1503,7 @@ Disassembly of section .text:
 10000d32:	2102      	movs	r1, #2
 10000d34:	0028      	movs	r0, r5
 10000d36:	f000 ff39 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000d3a:	e6a9      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000d3a:	e6aa      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000d3c:	2314      	movs	r3, #20
 10000d3e:	9300      	str	r3, [sp, #0]
 10000d40:	2300      	movs	r3, #0
@@ -1518,7 +1518,7 @@ Disassembly of section .text:
 10000d54:	2103      	movs	r1, #3
 10000d56:	0028      	movs	r0, r5
 10000d58:	f000 ff28 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000d5c:	e698      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000d5c:	e699      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000d5e:	230f      	movs	r3, #15
 10000d60:	9300      	str	r3, [sp, #0]
 10000d62:	2300      	movs	r3, #0
@@ -1533,7 +1533,7 @@ Disassembly of section .text:
 10000d76:	2103      	movs	r1, #3
 10000d78:	0028      	movs	r0, r5
 10000d7a:	f000 ff17 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000d7e:	e687      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000d7e:	e688      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000d80:	2302      	movs	r3, #2
 10000d82:	9300      	str	r3, [sp, #0]
 10000d84:	2300      	movs	r3, #0
@@ -1548,7 +1548,7 @@ Disassembly of section .text:
 10000d98:	2103      	movs	r1, #3
 10000d9a:	0028      	movs	r0, r5
 10000d9c:	f000 ff06 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000da0:	e676      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000da0:	e677      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000da2:	2301      	movs	r3, #1
 10000da4:	9300      	str	r3, [sp, #0]
 10000da6:	2300      	movs	r3, #0
@@ -1563,7 +1563,7 @@ Disassembly of section .text:
 10000dba:	2103      	movs	r1, #3
 10000dbc:	0028      	movs	r0, r5
 10000dbe:	f000 fef5 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000dc2:	e665      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000dc2:	e666      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000dc4:	2340      	movs	r3, #64	; 0x40
 10000dc6:	9300      	str	r3, [sp, #0]
 10000dc8:	2300      	movs	r3, #0
@@ -1571,7 +1571,7 @@ Disassembly of section .text:
 10000dcc:	2104      	movs	r1, #4
 10000dce:	0028      	movs	r0, r5
 10000dd0:	f000 feec 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000dd4:	e65c      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000dd4:	e65d      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000dd6:	2314      	movs	r3, #20
 10000dd8:	9300      	str	r3, [sp, #0]
 10000dda:	2300      	movs	r3, #0
@@ -1586,7 +1586,7 @@ Disassembly of section .text:
 10000dee:	2105      	movs	r1, #5
 10000df0:	0028      	movs	r0, r5
 10000df2:	f000 fedb 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000df6:	e64b      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000df6:	e64c      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000df8:	230f      	movs	r3, #15
 10000dfa:	9300      	str	r3, [sp, #0]
 10000dfc:	2300      	movs	r3, #0
@@ -1601,7 +1601,7 @@ Disassembly of section .text:
 10000e10:	2105      	movs	r1, #5
 10000e12:	0028      	movs	r0, r5
 10000e14:	f000 feca 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000e18:	e63a      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000e18:	e63b      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000e1a:	2302      	movs	r3, #2
 10000e1c:	9300      	str	r3, [sp, #0]
 10000e1e:	2300      	movs	r3, #0
@@ -1616,7 +1616,7 @@ Disassembly of section .text:
 10000e32:	2105      	movs	r1, #5
 10000e34:	0028      	movs	r0, r5
 10000e36:	f000 feb9 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000e3a:	e629      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000e3a:	e62a      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000e3c:	2301      	movs	r3, #1
 10000e3e:	9300      	str	r3, [sp, #0]
 10000e40:	2300      	movs	r3, #0
@@ -1631,7 +1631,7 @@ Disassembly of section .text:
 10000e54:	2105      	movs	r1, #5
 10000e56:	0028      	movs	r0, r5
 10000e58:	f000 fea8 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000e5c:	e618      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000e5c:	e619      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000e5e:	2340      	movs	r3, #64	; 0x40
 10000e60:	9300      	str	r3, [sp, #0]
 10000e62:	2300      	movs	r3, #0
@@ -1639,7 +1639,7 @@ Disassembly of section .text:
 10000e66:	2106      	movs	r1, #6
 10000e68:	0028      	movs	r0, r5
 10000e6a:	f000 fe9f 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000e6e:	e60f      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000e6e:	e610      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000e70:	2314      	movs	r3, #20
 10000e72:	9300      	str	r3, [sp, #0]
 10000e74:	2300      	movs	r3, #0
@@ -1654,7 +1654,7 @@ Disassembly of section .text:
 10000e88:	2107      	movs	r1, #7
 10000e8a:	0028      	movs	r0, r5
 10000e8c:	f000 fe8e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000e90:	e5fe      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000e90:	e5ff      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000e92:	230f      	movs	r3, #15
 10000e94:	9300      	str	r3, [sp, #0]
 10000e96:	2300      	movs	r3, #0
@@ -1669,7 +1669,7 @@ Disassembly of section .text:
 10000eaa:	2107      	movs	r1, #7
 10000eac:	0028      	movs	r0, r5
 10000eae:	f000 fe7d 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000eb2:	e5ed      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000eb2:	e5ee      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000eb4:	2302      	movs	r3, #2
 10000eb6:	9300      	str	r3, [sp, #0]
 10000eb8:	2300      	movs	r3, #0
@@ -1684,7 +1684,7 @@ Disassembly of section .text:
 10000ecc:	2107      	movs	r1, #7
 10000ece:	0028      	movs	r0, r5
 10000ed0:	f000 fe6c 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ed4:	e5dc      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000ed4:	e5dd      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000ed6:	2301      	movs	r3, #1
 10000ed8:	9300      	str	r3, [sp, #0]
 10000eda:	2300      	movs	r3, #0
@@ -1699,7 +1699,7 @@ Disassembly of section .text:
 10000eee:	2107      	movs	r1, #7
 10000ef0:	0028      	movs	r0, r5
 10000ef2:	f000 fe5b 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000ef6:	e5cb      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000ef6:	e5cc      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000ef8:	2340      	movs	r3, #64	; 0x40
 10000efa:	9300      	str	r3, [sp, #0]
 10000efc:	2300      	movs	r3, #0
@@ -1707,7 +1707,7 @@ Disassembly of section .text:
 10000f00:	2108      	movs	r1, #8
 10000f02:	0028      	movs	r0, r5
 10000f04:	f000 fe52 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000f08:	e5c2      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000f08:	e5c3      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000f0a:	2314      	movs	r3, #20
 10000f0c:	9300      	str	r3, [sp, #0]
 10000f0e:	2300      	movs	r3, #0
@@ -1722,7 +1722,7 @@ Disassembly of section .text:
 10000f22:	2109      	movs	r1, #9
 10000f24:	0028      	movs	r0, r5
 10000f26:	f000 fe41 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000f2a:	e5b1      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000f2a:	e5b2      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000f2c:	230f      	movs	r3, #15
 10000f2e:	9300      	str	r3, [sp, #0]
 10000f30:	2300      	movs	r3, #0
@@ -1737,7 +1737,7 @@ Disassembly of section .text:
 10000f44:	2109      	movs	r1, #9
 10000f46:	0028      	movs	r0, r5
 10000f48:	f000 fe30 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000f4c:	e5a0      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000f4c:	e5a1      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000f4e:	2302      	movs	r3, #2
 10000f50:	9300      	str	r3, [sp, #0]
 10000f52:	2300      	movs	r3, #0
@@ -1752,7 +1752,7 @@ Disassembly of section .text:
 10000f66:	2109      	movs	r1, #9
 10000f68:	0028      	movs	r0, r5
 10000f6a:	f000 fe1f 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000f6e:	e58f      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000f6e:	e590      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000f70:	2301      	movs	r3, #1
 10000f72:	9300      	str	r3, [sp, #0]
 10000f74:	2300      	movs	r3, #0
@@ -1767,7 +1767,7 @@ Disassembly of section .text:
 10000f88:	2109      	movs	r1, #9
 10000f8a:	0028      	movs	r0, r5
 10000f8c:	f000 fe0e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000f90:	e57e      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000f90:	e57f      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000f92:	2340      	movs	r3, #64	; 0x40
 10000f94:	9300      	str	r3, [sp, #0]
 10000f96:	2300      	movs	r3, #0
@@ -1775,7 +1775,7 @@ Disassembly of section .text:
 10000f9a:	210a      	movs	r1, #10
 10000f9c:	0028      	movs	r0, r5
 10000f9e:	f000 fe05 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000fa2:	e575      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000fa2:	e576      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000fa4:	2314      	movs	r3, #20
 10000fa6:	9300      	str	r3, [sp, #0]
 10000fa8:	2300      	movs	r3, #0
@@ -1790,7 +1790,7 @@ Disassembly of section .text:
 10000fbc:	210b      	movs	r1, #11
 10000fbe:	0028      	movs	r0, r5
 10000fc0:	f000 fdf4 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000fc4:	e564      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000fc4:	e565      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000fc6:	230f      	movs	r3, #15
 10000fc8:	9300      	str	r3, [sp, #0]
 10000fca:	2300      	movs	r3, #0
@@ -1805,7 +1805,7 @@ Disassembly of section .text:
 10000fde:	210b      	movs	r1, #11
 10000fe0:	0028      	movs	r0, r5
 10000fe2:	f000 fde3 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10000fe6:	e553      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10000fe6:	e554      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10000fe8:	2302      	movs	r3, #2
 10000fea:	9300      	str	r3, [sp, #0]
 10000fec:	2300      	movs	r3, #0
@@ -1820,7 +1820,7 @@ Disassembly of section .text:
 10001000:	210b      	movs	r1, #11
 10001002:	0028      	movs	r0, r5
 10001004:	f000 fdd2 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10001008:	e542      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10001008:	e543      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 1000100a:	2301      	movs	r3, #1
 1000100c:	9300      	str	r3, [sp, #0]
 1000100e:	2300      	movs	r3, #0
@@ -1835,7 +1835,7 @@ Disassembly of section .text:
 10001022:	210b      	movs	r1, #11
 10001024:	0028      	movs	r0, r5
 10001026:	f000 fdc1 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000102a:	e531      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000102a:	e532      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 1000102c:	2340      	movs	r3, #64	; 0x40
 1000102e:	9300      	str	r3, [sp, #0]
 10001030:	2300      	movs	r3, #0
@@ -1843,7 +1843,7 @@ Disassembly of section .text:
 10001034:	210c      	movs	r1, #12
 10001036:	0028      	movs	r0, r5
 10001038:	f000 fdb8 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000103c:	e528      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000103c:	e529      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 1000103e:	2314      	movs	r3, #20
 10001040:	9300      	str	r3, [sp, #0]
 10001042:	2300      	movs	r3, #0
@@ -1858,7 +1858,7 @@ Disassembly of section .text:
 10001056:	210d      	movs	r1, #13
 10001058:	0028      	movs	r0, r5
 1000105a:	f000 fda7 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000105e:	e517      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000105e:	e518      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10001060:	230f      	movs	r3, #15
 10001062:	9300      	str	r3, [sp, #0]
 10001064:	2300      	movs	r3, #0
@@ -1873,7 +1873,7 @@ Disassembly of section .text:
 10001078:	210d      	movs	r1, #13
 1000107a:	0028      	movs	r0, r5
 1000107c:	f000 fd96 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10001080:	e506      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10001080:	e507      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10001082:	2302      	movs	r3, #2
 10001084:	9300      	str	r3, [sp, #0]
 10001086:	2300      	movs	r3, #0
@@ -1888,7 +1888,7 @@ Disassembly of section .text:
 1000109a:	210d      	movs	r1, #13
 1000109c:	0028      	movs	r0, r5
 1000109e:	f000 fd85 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100010a2:	e4f5      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100010a2:	e4f6      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100010a4:	2301      	movs	r3, #1
 100010a6:	9300      	str	r3, [sp, #0]
 100010a8:	2300      	movs	r3, #0
@@ -1903,7 +1903,7 @@ Disassembly of section .text:
 100010bc:	210d      	movs	r1, #13
 100010be:	0028      	movs	r0, r5
 100010c0:	f000 fd74 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100010c4:	e4e4      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100010c4:	e4e5      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100010c6:	2340      	movs	r3, #64	; 0x40
 100010c8:	9300      	str	r3, [sp, #0]
 100010ca:	2300      	movs	r3, #0
@@ -1911,7 +1911,7 @@ Disassembly of section .text:
 100010ce:	210e      	movs	r1, #14
 100010d0:	0028      	movs	r0, r5
 100010d2:	f000 fd6b 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100010d6:	e4db      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100010d6:	e4dc      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100010d8:	2314      	movs	r3, #20
 100010da:	9300      	str	r3, [sp, #0]
 100010dc:	2300      	movs	r3, #0
@@ -1926,7 +1926,7 @@ Disassembly of section .text:
 100010f0:	210f      	movs	r1, #15
 100010f2:	0028      	movs	r0, r5
 100010f4:	f000 fd5a 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100010f8:	e4ca      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100010f8:	e4cb      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100010fa:	230f      	movs	r3, #15
 100010fc:	9300      	str	r3, [sp, #0]
 100010fe:	2300      	movs	r3, #0
@@ -1941,7 +1941,7 @@ Disassembly of section .text:
 10001112:	210f      	movs	r1, #15
 10001114:	0028      	movs	r0, r5
 10001116:	f000 fd49 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000111a:	e4b9      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000111a:	e4ba      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 1000111c:	2302      	movs	r3, #2
 1000111e:	9300      	str	r3, [sp, #0]
 10001120:	2300      	movs	r3, #0
@@ -1956,7 +1956,7 @@ Disassembly of section .text:
 10001134:	210f      	movs	r1, #15
 10001136:	0028      	movs	r0, r5
 10001138:	f000 fd38 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000113c:	e4a8      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000113c:	e4a9      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 1000113e:	2301      	movs	r3, #1
 10001140:	9300      	str	r3, [sp, #0]
 10001142:	2300      	movs	r3, #0
@@ -1971,7 +1971,7 @@ Disassembly of section .text:
 10001156:	210f      	movs	r1, #15
 10001158:	0028      	movs	r0, r5
 1000115a:	f000 fd27 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-1000115e:	e497      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+1000115e:	e498      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10001160:	2340      	movs	r3, #64	; 0x40
 10001162:	9300      	str	r3, [sp, #0]
 10001164:	2300      	movs	r3, #0
@@ -1979,7 +1979,7 @@ Disassembly of section .text:
 10001168:	2110      	movs	r1, #16
 1000116a:	0028      	movs	r0, r5
 1000116c:	f000 fd1e 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10001170:	e48e      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10001170:	e48f      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10001172:	2314      	movs	r3, #20
 10001174:	9300      	str	r3, [sp, #0]
 10001176:	2300      	movs	r3, #0
@@ -1994,7 +1994,7 @@ Disassembly of section .text:
 1000118a:	2111      	movs	r1, #17
 1000118c:	0028      	movs	r0, r5
 1000118e:	f000 fd0d 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-10001192:	e47d      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+10001192:	e47e      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 10001194:	230f      	movs	r3, #15
 10001196:	9300      	str	r3, [sp, #0]
 10001198:	2300      	movs	r3, #0
@@ -2009,7 +2009,7 @@ Disassembly of section .text:
 100011ac:	2111      	movs	r1, #17
 100011ae:	0028      	movs	r0, r5
 100011b0:	f000 fcfc 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100011b4:	e46c      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100011b4:	e46d      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100011b6:	2302      	movs	r3, #2
 100011b8:	9300      	str	r3, [sp, #0]
 100011ba:	2300      	movs	r3, #0
@@ -2024,7 +2024,7 @@ Disassembly of section .text:
 100011ce:	2111      	movs	r1, #17
 100011d0:	0028      	movs	r0, r5
 100011d2:	f000 fceb 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100011d6:	e45b      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100011d6:	e45c      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100011d8:	2301      	movs	r3, #1
 100011da:	9300      	str	r3, [sp, #0]
 100011dc:	2300      	movs	r3, #0
@@ -2039,7 +2039,7 @@ Disassembly of section .text:
 100011f0:	2111      	movs	r1, #17
 100011f2:	0028      	movs	r0, r5
 100011f4:	f000 fcda 	bl	10001bac <_ZN6WS281213setPixelColorEjhhh>
-100011f8:	e44a      	b.n	10000a90 <_Z11setDateTime6WS2812S_jj+0x234>
+100011f8:	e44b      	b.n	10000a92 <_Z11setDateTime6WS2812S_jj+0x236>
 100011fa:	46c0      	nop			; (mov r8, r8)
 
 100011fc <_Z11displayTimeP2tm6WS2812S1_>:
