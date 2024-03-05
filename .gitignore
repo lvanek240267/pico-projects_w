@@ -3,11 +3,11 @@ _deps
 cmake-*
 .DS_Store
 *.pdf
-*.obj
-*.bin
-*.dis
-*.hex
-*.elf
+build/*.map
+build/*/*.bin
+build/*/*.dis
+build/*/*.hex
+build/*/*.elf
 CMakeCache.txt
 .ninja*.*
 build/.cmake

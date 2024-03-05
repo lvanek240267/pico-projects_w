@@ -2823,9 +2823,9 @@ Discarded input sections
                 0x00000000       0x3c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .time_critical.spi_read16_blocking
                 0x00000000       0x3e ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
- .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
- .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
- .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
+ .text          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
+ .data          0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
+ .bss           0x00000000        0x0 C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
  .data          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a(lib_a-atoi.o)
@@ -3052,7 +3052,7 @@ LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../.
 .boot2          0x10000000      0x100
                 0x10000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
+ .boot2         0x10000000      0x100 C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
                 0x10000100                __boot2_end__ = .
                 0x00000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -7519,7 +7519,7 @@ LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sd
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj
 LOAD ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
-LOAD C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
+LOAD C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libstdc++.a
 LOAD c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libm.a
 START GROUP
@@ -7736,7 +7736,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00001044       0x2c ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj
  .ARM.attributes
-                0x00001070       0x22 C:\Users\lvanek\AppData\Local\Temp\ccc4H0OY.o
+                0x00001070       0x22 C:\Users\lvanek\AppData\Local\Temp\ccAGx8z2.o
  .ARM.attributes
                 0x00001092       0x1e c:/picosdk/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
  .ARM.attributes

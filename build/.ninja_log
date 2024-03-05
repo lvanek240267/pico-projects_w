@@ -665,3 +665,9 @@
 4671	5036	7205264374439021	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj	bb918123031d5e9c
 4945	5153	7205264375825310	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj	ac7e4d8c50f8d5cb
 4936	5284	7205264377131897	ssd1306_i2c_1/CMakeFiles/picow_ntp_client_background.dir/C_/PicoSDK/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj	e13ea8d050723a50
+80	402	7313327268253980	pico-sdk/src/rp2_common/boot_stage2/======bs2_default.elf	6d31f0f8c2980645
+402	470	7313327270347122	pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	2ee820bc167b52bd
+402	470	7313327270347122	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin	2ee820bc167b52bd
+470	716	7313327272727086	pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
+470	716	7313327272727086	D:/Home/Development/Personal/PICO/pico-projects_w/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S	15e1aa2a752e230
+717	3034	7313327292901293	ssd1306_i2c_1/======picow_ntp_client_background.elf	ed3472522ea72590
