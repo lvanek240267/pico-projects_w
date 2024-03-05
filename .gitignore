@@ -4,6 +4,10 @@ cmake-*
 .DS_Store
 *.pdf
 *.obj
+*.bin
+*.dis
+*.hex
+*.elf
 CMakeCache.txt
 .ninja*.*
 build/.cmake
