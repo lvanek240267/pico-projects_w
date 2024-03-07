@@ -9,6 +9,7 @@ build/*/*.dis
 build/*/*.hex
 build/*/*.elf
 build/CMakeCache.txt
+build/CMakeFiles/CMakeOutput.log
 .ninja*.*
 build/.cmake
 build/.ninja_log
