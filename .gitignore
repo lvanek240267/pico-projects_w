@@ -8,7 +8,7 @@ build/*/*.bin
 build/*/*.dis
 build/*/*.hex
 build/*/*.elf
-CMakeCache.txt
+build/CMakeCache.txt
 .ninja*.*
 build/.cmake
 build/.ninja_log
