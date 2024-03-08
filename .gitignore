@@ -12,6 +12,7 @@ build/CMakeCache.txt
 build/CMakeFiles/CMakeOutput.log
 .ninja*.*
 build/.cmake
+build/build.ninja
 build/.ninja_log
 build/.ninja_deps
 build/pico-sdk
